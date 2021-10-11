@@ -1,0 +1,5 @@
+body {
+    font-family: "Times";
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
