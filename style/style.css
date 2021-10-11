@@ -3,3 +3,43 @@ body {
     font-smooth: never;
     -webkit-font-smoothing : none;
 }
+
+select {
+  background-color: white;
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-bottom-color: #cccccc;
+  border-right-color: #cccccc;
+  border-radius: 0;
+  border-width: 2px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 24px;
+  padding: 1px;
+  width: 185px;
+}
+
+select::-ms-expand {
+     display: none;
+}
+
+form:after {
+  content: url("arrow.svg");
+  color: #000;
+  background-color: #cccccc;
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-right-color: #888;
+  border-bottom-color: #888;
+  box-shadow: 1px 1px #404040, -1px -1px #cccccc, 0px 1px #404040, 1px 0px #404040, 0px -1px #cccccc, -1px 0px #cccccc;
+  position: absolute;
+  left: 163px;
+  top: 3px;
+  width: 17px;
+  height: 17px;
+  pointer-events: none;
+}
