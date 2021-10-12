@@ -1,5 +1,5 @@
 body {
-    font-family: "Times";
+    font-family: "Times", "Times New Roman", Serif;
     font-smooth: never;
     -webkit-font-smoothing : none;
 }
@@ -16,7 +16,7 @@ select {
   -moz-appearance: none;
   appearance: none;
   height: 24px;
-  padding: 1px;
+  padding-left: 3px;
   width: 185px;
 }
 
@@ -42,4 +42,14 @@ form:after {
   width: 17px;
   height: 17px;
   pointer-events: none;
+}
+
+form:active:after{
+  background-color: #eee;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  border-left-color: #888;
+  border-top-color: #888;
+  box-shadow: -1px -1px #404040, 1px 1px #cccccc, 0px -1px #404040, -1px 0px #404040, 0px 1px #cccccc, 1px 0px #cccccc;
+
 }
