@@ -18,6 +18,7 @@ select {
   height: 24px;
   padding-left: 3px;
   width: 185px;
+  outline: none;
 }
 
 select::-ms-expand {
