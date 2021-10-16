@@ -54,3 +54,8 @@ form:active:after{
   box-shadow: -1px -1px #404040, 1px 1px #cccccc, 0px -1px #404040, -1px 0px #404040, 0px 1px #cccccc, 1px 0px #cccccc;
 
 }
+
+body{
+  margin-left: 30px;
+  margin-right: 30px;
+}
