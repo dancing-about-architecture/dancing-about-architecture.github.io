@@ -1,0 +1,61 @@
+<!--
+Made with love by Owen Earl
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Can I Buy This Album?!?</title>
+	<link rel='stylesheet' href='../style/style.css'/>
+	<link rel='stylesheet' href='../style/fonts/fonts.css'/>
+	<link rel='stylesheet' href='style.css'/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-app-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-auth-compat.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/12.16.0/firebase-database-compat.js"></script>
+	<script src="firebase-config.js"></script>
+	<script src="sync.js"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+	<div class="topbar">
+		<span id="greeting"></span>
+		<a class="why" href="why.html" target="_blank">why is this a game?</a>
+	</div>
+	<div class="wrap">
+		<h1>Can I Buy This Album?!?</h1>
+
+		<div id="nameScreen">
+			<p>What's your name?</p>
+			<input id="nameInput" type="text" autofocus="autofocus">
+			<button id="nameSubmit">Let's go</button>
+		</div>
+
+		<div id="mainScreen" class="hidden">
+			<button id="tryButton">Try to buy a record</button>
+		</div>
+
+		<div id="questionScreen" class="hidden">
+			<h2>Can you buy the album?</h2>
+			<img id="questionCover" src="" alt="">
+			<div>
+				<button id="yesButton">Yes</button>
+				<button id="noButton">No</button>
+			</div>
+		</div>
+
+		<div id="doneScreen" class="hidden">
+			<p>You've answered every album at least twice -- thank you!</p>
+		</div>
+
+		<div id="scoreboard" class="hidden">
+			<h2>Handsomest Family Member</h2>
+			<div id="bars"></div>
+		</div>
+	</div>
+
+	<div id="surpassScreen">
+		<h1>Wow! You're looking more handsome than <span id="surpassName"></span></h1>
+	</div>
+</body>
+</html>

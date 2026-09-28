@@ -1,0 +1,156 @@
+body {
+	margin: 0;
+	padding: 60px 30px 30px 30px;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+}
+
+.topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #ffffff;
+	box-sizing: border-box;
+}
+
+.wrap {
+	max-width: 480px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 1.1;
+	margin-bottom: 4px;
+}
+
+h2 {
+	font-weight: normal;
+	font-size: 20px;
+}
+
+.why {
+	font-size: 14px;
+}
+
+#greeting {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+#nameScreen p {
+	font-size: 22px;
+	margin-bottom: 16px;
+}
+
+#nameScreen input {
+	font-family: "Times", "Times New Roman", Serif;
+	font-size: 16px;
+	padding: 4px 6px;
+	border: 1px solid black;
+}
+
+button {
+	font-family: "Times", "Times New Roman", Serif;
+	font-size: 16px;
+	background-color: #ffffff;
+	color: #000000;
+	border: 1px solid black;
+	padding: 6px 14px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #eeeeee;
+}
+
+button:disabled {
+	cursor: default;
+	opacity: 0.5;
+}
+
+#tryButton {
+	font-size: 22px;
+	padding: 18px 28px;
+	margin: 30px 0;
+}
+
+#questionCover {
+	display: block;
+	max-width: 260px;
+	max-height: 260px;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
+#questionScreen button {
+	font-size: 18px;
+	padding: 10px 30px;
+	margin: 0 8px;
+}
+
+#scoreboard {
+	margin-top: 50px;
+	text-align: left;
+}
+
+#scoreboard h2 {
+	text-align: center;
+}
+
+.bar-row {
+	margin: 8px 0;
+}
+
+.bar-label {
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.bar-label .me {
+	font-weight: bold;
+}
+
+.bar-track {
+	background-color: #eeeeee;
+	border: 1px solid black;
+	height: 14px;
+}
+
+.bar-fill {
+	background-color: #000000;
+	height: 100%;
+}
+
+#surpassScreen {
+	display: none;
+	position: fixed;
+	inset: 0;
+	background-color: #ffffff;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 30px;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+
+#surpassScreen.show {
+	display: flex;
+}
+
+#surpassScreen h1 {
+	margin: 0;
+}

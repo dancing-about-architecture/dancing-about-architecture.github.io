@@ -1,0 +1,1316 @@
+[
+  {
+    "id": 0,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002UJQ/qid=1100817808/sr=8-3/ref=pd_csp_3/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/radiohead.jpg",
+    "page": "pages/radiohead.html"
+  },
+  {
+    "id": 1,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello7.html"
+  },
+  {
+    "id": 2,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003RGL/ref=m_art_li_12/104-9958823-8811953?v=glance&s=music",
+    "cover": "../album covers/underworld.jpg",
+    "page": "pages/underworld.html"
+  },
+  {
+    "id": 3,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LSP/qid=1099875827/sr=8-3/ref=pd_csp_3/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lang.jpg",
+    "page": "pages/lang.html"
+  },
+  {
+    "id": 4,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy6.html"
+  },
+  {
+    "id": 5,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00001OH7M/qid=1097724101/sr=5-1/ref=cm_lm_asin/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/Bowie.jpg",
+    "page": "pages/bowie3.html"
+  },
+  {
+    "id": 6,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002MM1/qid=1097897669/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/byrne - eno.jpg",
+    "page": "pages/byrne2.html"
+  },
+  {
+    "id": 7,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000046S1W/ref=m_art_li_1/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/electric chamber.jpg",
+    "page": "pages/electric.html"
+  },
+  {
+    "id": 8,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002572/qid=1096772937/sr=2-1/ref=pd_ka_2_1/104-0473917-7132750",
+    "cover": "../album covers/Boston.jpg",
+    "page": "pages/boston.html"
+  },
+  {
+    "id": 9,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000038YL/qid=1100476688/sr=8-7/ref=sr_8_xs_ap_i7_xgl15/103-9917452-4706207?v=glance&s=music&n=507846",
+    "cover": "../album covers/negativland.jpg",
+    "page": "pages/negativland.html"
+  },
+  {
+    "id": 10,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking3.html"
+  },
+  {
+    "id": 11,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello.html"
+  },
+  {
+    "id": 12,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000005ONN/qid=1097900802/sr=1-8/ref=sr_1_8/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/california guitar trio.jpg",
+    "page": "pages/california.html"
+  },
+  {
+    "id": 13,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking5.html"
+  },
+  {
+    "id": 14,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002572/qid=1096772937/sr=2-1/ref=pd_ka_2_1/104-0473917-7132750",
+    "cover": "../album covers/Boston.jpg",
+    "page": "pages/boston2.html"
+  },
+  {
+    "id": 15,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000004BOL/qid=1099503751/sr=8-1/ref=pd_csp_1/103-9604921-7103856?v=glance&s=music&n=507846",
+    "cover": "../album covers/hapa.jpg",
+    "page": "pages/hapa.html"
+  },
+  {
+    "id": 16,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000027GI/qid=1099265585/sr=8-4/ref=pd_csp_4/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/hagen.jpg",
+    "page": "pages/hagen.html"
+  },
+  {
+    "id": 17,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005MNP8/qid=1097640204/sr=8-2/ref=pd_csp_2/103-0964762-8845413?v=glance&s=music&n=507846",
+    "cover": "../album covers/Blondie.jpg",
+    "page": "pages/blondie2.html"
+  },
+  {
+    "id": 18,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008LZA/qid=1101230507/sr=1-9/ref=sr_1_9/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/velvet.jpg",
+    "page": "pages/velvet.html"
+  },
+  {
+    "id": 19,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002MA5/qid=1100733817/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/polonsky.jpg",
+    "page": "pages/polonsky.html"
+  },
+  {
+    "id": 20,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LSP/qid=1099875827/sr=8-3/ref=pd_csp_3/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lang.jpg",
+    "page": "pages/lang3.html"
+  },
+  {
+    "id": 21,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000009N2U/qid=1100028524/sr=1-18/ref=sr_1_18/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/low.jpg",
+    "page": "pages/low.html"
+  },
+  {
+    "id": 22,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008I9M/qid=1100064920/sr=1-3/ref=sr_1_3/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/mc900.jpg",
+    "page": "pages/mc900.html"
+  },
+  {
+    "id": 23,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005NNDO/qid=1101243670/sr=1-2/ref=sr_1_2/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/winston.jpg",
+    "page": "pages/winston4.html"
+  },
+  {
+    "id": 24,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000000NEF/qid=1100497199/sr=2-3/ref=pd_ka_b_2_3/103-9917452-4706207",
+    "cover": "../album covers/nylons.jpg",
+    "page": "pages/nylons.html"
+  },
+  {
+    "id": 25,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00006ANZP/qid=1099526624/sr=1-10/ref=sr_1_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/king crimson.jpg",
+    "page": "pages/king.html"
+  },
+  {
+    "id": 26,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GC6/ref=m_art_li_10/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/oingo.jpg",
+    "page": "pages/oingo2.html"
+  },
+  {
+    "id": 27,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000373U/qid=1100988550/sr=2-2/ref=pd_ka_b_2_2/103-9917452-4706207",
+    "cover": "../album covers/smith.jpg",
+    "page": "pages/smith2.html"
+  },
+  {
+    "id": 28,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000030009/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Beck.jpg",
+    "page": "pages/beck.html"
+  },
+  {
+    "id": 29,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000005DQR/qid=1098336991/sr=8-1/ref=pd_csp_1/104-8069470-6170337?v=glance&s=music&n=507846",
+    "cover": "../album covers/dj shadow.jpg",
+    "page": "pages/djshadow.html"
+  },
+  {
+    "id": 30,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000093BDX/qid=1097553882/sr=2-1/ref=pd_ka_2_1/103-0964762-8845413",
+    "cover": "../album covers/beach boys.jpg",
+    "page": "pages/beach.html"
+  },
+  {
+    "id": 31,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DFMN/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/AoN.jpg",
+    "page": "pages/art5.html"
+  },
+  {
+    "id": 32,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00004TVAQ/qid=1099111410/sr=2-1/ref=pd_ka_b_2_1/102-3109542-5671338",
+    "cover": "../album covers/fountains.jpg",
+    "page": "pages/fountains.html"
+  },
+  {
+    "id": 33,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello3.html"
+  },
+  {
+    "id": 34,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002UJQ/qid=1100817808/sr=8-3/ref=pd_csp_3/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/radiohead.jpg",
+    "page": "pages/radiohead2.html"
+  },
+  {
+    "id": 35,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000JXSA/ref=pd_sim_music_1/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/air.jpg",
+    "page": "pages/air.html"
+  },
+  {
+    "id": 36,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000030009/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Beck.jpg",
+    "page": "pages/beck2.html"
+  },
+  {
+    "id": 37,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001FVW/qid=1100150104/sr=8-3/ref=pd_csp_3/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/mclaren.jpg",
+    "page": "pages/mclaren.html"
+  },
+  {
+    "id": 38,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DQT0/qid=1099527195/sr=1-10/ref=sr_1_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/kraftwerk.jpg",
+    "page": "pages/kraftwerk3.html"
+  },
+  {
+    "id": 39,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello5.html"
+  },
+  {
+    "id": 40,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000029IH/qid=1098244155/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/deep forest.jpg",
+    "page": "pages/deep.html"
+  },
+  {
+    "id": 41,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000256VN/qid=1100820796/sr=1-7/ref=sr_1_7/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/roxy.jpg",
+    "page": "pages/roxy2.html"
+  },
+  {
+    "id": 42,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005JGAH/qid=1100818917/sr=1-6/ref=sr_1_6/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/ramones.jpg",
+    "page": "pages/ramones.html"
+  },
+  {
+    "id": 43,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking6.html"
+  },
+  {
+    "id": 44,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DMHY/qid=1097122065/sr=1-1/ref=sr_1_1/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Alesini - Andreoni.jpg",
+    "page": "pages/alesini.html"
+  },
+  {
+    "id": 45,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000048DR/qid=1098849391/sr=8-3/ref=pd_csp_3/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/esquivel.jpg",
+    "page": "pages/esquivel.html"
+  },
+  {
+    "id": 46,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000AQOQU/qid=1101081118/sr=1-12/ref=sr_1_12/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/sylvian.jpg",
+    "page": "pages/sylvian.html"
+  },
+  {
+    "id": 47,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DFMN/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/AoN.jpg",
+    "page": "pages/art3.html"
+  },
+  {
+    "id": 48,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello2.html"
+  },
+  {
+    "id": 49,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001C3A/qid=1098506367/sr=1-2/ref=sr_1_2/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eckert.jpg",
+    "page": "pages/eckert.html"
+  },
+  {
+    "id": 50,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LJE/qid=1101079763/sr=8-1/ref=pd_csp_1/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/stalling.jpg",
+    "page": "pages/stalling2.html"
+  },
+  {
+    "id": 51,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000256VN/qid=1100820796/sr=1-7/ref=sr_1_7/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/roxy.jpg",
+    "page": "pages/roxy5.html"
+  },
+  {
+    "id": 52,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GYW/ref=m_art_li_6/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eagles.jpg",
+    "page": "pages/eagles2.html"
+  },
+  {
+    "id": 53,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000OAN/qid=1100735096/sr=1-10/ref=sr_1_10/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/queen.jpg",
+    "page": "pages/queen4.html"
+  },
+  {
+    "id": 54,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000046Y1/qid=1101315301/sr=1-1/ref=sr_1_1/104-9958823-8811953?v=glance&s=music",
+    "cover": "../album covers/united future.jpg",
+    "page": "pages/united.html"
+  },
+  {
+    "id": 55,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008CP8/qid=1096988277/sr=1-6/ref=sr_1_6/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Adamson.jpg",
+    "page": "pages/adamson.html"
+  },
+  {
+    "id": 56,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000009NC7/qid=1101162018/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/this mortal.jpg",
+    "page": "pages/this.html"
+  },
+  {
+    "id": 57,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000005HU3/qid=1100064165/sr=2-1/ref=pd_ka_b_2_1/104-4093826-5309536",
+    "cover": "../album covers/material.jpg",
+    "page": "pages/material.html"
+  },
+  {
+    "id": 58,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00005KHE3/qid=1101233306/sr=2-1/ref=pd_ka_b_2_1/104-1100646-8208710",
+    "cover": "../album covers/welch.jpg",
+    "page": "pages/welch.html"
+  },
+  {
+    "id": 59,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy5.html"
+  },
+  {
+    "id": 60,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KBU/qid=1100405695/sr=2-3/ref=pd_ka_b_2_3/104-4093826-5309536",
+    "cover": "../album covers/mitchell.jpg",
+    "page": "pages/mitchell2.html"
+  },
+  {
+    "id": 61,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000HHE/qid=1098331814/sr=8-2/ref=pd_csp_2/104-8069470-6170337?v=glance&s=music&n=507846",
+    "cover": "../album covers/de la.jpg",
+    "page": "pages/dela.html"
+  },
+  {
+    "id": 62,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00004TDZ3/qid=1099762844/sr=8-8/ref=sr_8_xs_ap_i8_xgl15/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lucky stars.jpg",
+    "page": "pages/lucky.html"
+  },
+  {
+    "id": 63,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000005ONR/qid=1099114359/sr=2-2/ref=pd_ka_b_2_2/102-3109542-5671338",
+    "cover": "../album covers/fripp.jpg",
+    "page": "pages/fripp.html"
+  },
+  {
+    "id": 64,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000008HH5/qid=1099891493/sr=2-1/ref=pd_ka_b_2_1/104-4093826-5309536",
+    "cover": "../album covers/la style.jpg",
+    "page": "pages/lastyle.html"
+  },
+  {
+    "id": 65,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000007SPW/qid=1098159390/sr=1-12/ref=sr_1_12/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/dead can dance.jpg",
+    "page": "pages/dead.html"
+  },
+  {
+    "id": 66,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008J59/qid=1100583669/sr=1-4/ref=sr_1_4/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/orbison.jpg",
+    "page": "pages/orbison.html"
+  },
+  {
+    "id": 67,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000EJ3/qid=1100730524/sr=1-1/ref=sr_1_1/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/perrey kingsley.jpg",
+    "page": "pages/perrey.html"
+  },
+  {
+    "id": 68,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000373U/qid=1100988550/sr=2-2/ref=pd_ka_b_2_2/103-9917452-4706207",
+    "cover": "../album covers/smith.jpg",
+    "page": "pages/smith.html"
+  },
+  {
+    "id": 69,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00006L5PQ/qid=1098072749/sr=1-1/ref=sr_1_1/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/cocteau.jpg",
+    "page": "pages/cocteau.html"
+  },
+  {
+    "id": 70,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy3.html"
+  },
+  {
+    "id": 71,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000026Z88/qid=1100026393/sr=8-13/ref=sr_8_xs_ap_i13_xgl15/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lovich.jpg",
+    "page": "pages/lovich2.html"
+  },
+  {
+    "id": 72,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00001OH7M/qid=1097724101/sr=5-1/ref=cm_lm_asin/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/Bowie.jpg",
+    "page": "pages/bowie2.html"
+  },
+  {
+    "id": 73,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002GE1/qid=1099520253/sr=2-3/ref=pd_ka_b_2_3/103-9604921-7103856",
+    "cover": "../album covers/jackson - joe.jpg",
+    "page": "pages/jackson-j.html"
+  },
+  {
+    "id": 74,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003S2K/qid=1098676297/sr=1-1/ref=sr_1_1/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eno - brian.jpg",
+    "page": "pages/eno-b2.html"
+  },
+  {
+    "id": 75,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00004RIWF/qid=1101169583/sr=2-3/ref=pd_ka_b_2_3/104-1100646-8208710",
+    "cover": "../album covers/ultravox.jpg",
+    "page": "pages/ultravox3.html"
+  },
+  {
+    "id": 76,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005MNP8/qid=1097640204/sr=8-2/ref=pd_csp_2/103-0964762-8845413?v=glance&s=music&n=507846",
+    "cover": "../album covers/Blondie.jpg",
+    "page": "pages/blondie.html"
+  },
+  {
+    "id": 77,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001FEC/ref=m_art_li_16/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/summer.jpg",
+    "page": "pages/summer.html"
+  },
+  {
+    "id": 78,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000K1MY/qid=1100734641/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/quasi.jpg",
+    "page": "pages/quasi.html"
+  },
+  {
+    "id": 79,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000027IGS/qid=1099504216/sr=2-1/ref=pd_ka_b_2_1/103-9604921-7103856",
+    "cover": "../album covers/harmonic.jpg",
+    "page": "pages/harmonic.html"
+  },
+  {
+    "id": 80,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000033G4/qid=1100407052/sr=1-1/ref=sr_1_1/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/morricone.jpg",
+    "page": "pages/morricone.html"
+  },
+  {
+    "id": 81,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000OAN/qid=1100735096/sr=1-10/ref=sr_1_10/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/queen.jpg",
+    "page": "pages/queen2.html"
+  },
+  {
+    "id": 82,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000075WF/qid=1101231002/sr=2-1/ref=pd_ka_b_2_1/104-1100646-8208710",
+    "cover": "../album covers/visage.jpg",
+    "page": "pages/visage.html"
+  },
+  {
+    "id": 83,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000E32XC/qid=1097938442/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/carlos.jpg",
+    "page": "pages/carlos2.html"
+  },
+  {
+    "id": 84,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002H8B/qid=1098243262/sr=8-3/ref=sr_8_xs_ap_i3_xgl15/104-8069470-6170337?v=glance&s=music&n=507846",
+    "cover": "../album covers/deee-lite.jpg",
+    "page": "pages/deee-lite.html"
+  },
+  {
+    "id": 85,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005NNDO/qid=1101243670/sr=1-2/ref=sr_1_2/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/winston.jpg",
+    "page": "pages/winston.html"
+  },
+  {
+    "id": 86,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking4.html"
+  },
+  {
+    "id": 87,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DFMN/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/AoN.jpg",
+    "page": "pages/art.html"
+  },
+  {
+    "id": 88,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000E32XC/qid=1097938442/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/carlos.jpg",
+    "page": "pages/carlos.html"
+  },
+  {
+    "id": 89,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KJ1/qid=1098332367/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/devo.jpg",
+    "page": "pages/devo2.html"
+  },
+  {
+    "id": 90,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000IMU2/qid=1097732951/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/Brook.jpg",
+    "page": "pages/brook.html"
+  },
+  {
+    "id": 91,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002W6Y/qid=1098850024/sr=1-1/ref=sr_1_1/102-3109542-5671338?v=glance&s=music",
+    "cover": "../album covers/eurythmics.jpg",
+    "page": "pages/eurythmics.html"
+  },
+  {
+    "id": 92,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000000KI/qid=1101232793/sr=1-5/ref=sr_1_5/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/warnes.jpg",
+    "page": "pages/warnes.html"
+  },
+  {
+    "id": 93,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002I9S/qid=1100045167/sr=8-1/ref=pd_csp_1/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/manhattan.jpg",
+    "page": "pages/manhattan.html"
+  },
+  {
+    "id": 94,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000024K6/qid=1101161356/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/third bass.jpg",
+    "page": "pages/third.html"
+  },
+  {
+    "id": 95,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000009RV/qid=1101252402/sr=1-1/ref=sr_1_1/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/zappa.jpg",
+    "page": "pages/zappa3.html"
+  },
+  {
+    "id": 96,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KK4/qid=1100820157/sr=2-1/ref=pd_ka_b_2_1/104-1100646-8208710",
+    "cover": "../album covers/roches.jpg",
+    "page": "pages/roches.html"
+  },
+  {
+    "id": 97,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00004XSSU/qid=1100046566/sr=1-4/ref=sr_1_4/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/martha.jpg",
+    "page": "pages/martha.html"
+  },
+  {
+    "id": 98,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000HZZ/ref=m_art_li_5/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/japan.jpg",
+    "page": "pages/japan.html"
+  },
+  {
+    "id": 99,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000065VCP/qid=1099178054/sr=8-8/ref=pd_ka_8/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gabriel.jpg",
+    "page": "pages/gabriel3.html"
+  },
+  {
+    "id": 100,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000032CH/qid=1098850809/sr=1-2/ref=sr_1_2/102-3109542-5671338?v=glance&s=music",
+    "cover": "../album covers/everly.jpg",
+    "page": "pages/everly.html"
+  },
+  {
+    "id": 101,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KJ1/qid=1098332367/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/devo.jpg",
+    "page": "pages/devo.html"
+  },
+  {
+    "id": 102,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000065VCP/qid=1099178054/sr=8-8/ref=pd_ka_8/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gabriel.jpg",
+    "page": "pages/gabriel.html"
+  },
+  {
+    "id": 103,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking.html"
+  },
+  {
+    "id": 104,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002R98/qid=1097727942/sr=1-5/ref=sr_1_5/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/Bow Wow.jpg",
+    "page": "pages/bowwow.html"
+  },
+  {
+    "id": 105,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000026Z88/qid=1100026393/sr=8-13/ref=sr_8_xs_ap_i13_xgl15/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lovich.jpg",
+    "page": "pages/lovich.html"
+  },
+  {
+    "id": 106,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003S2K/qid=1098676297/sr=1-1/ref=sr_1_1/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eno - brian.jpg",
+    "page": "pages/eno-b3.html"
+  },
+  {
+    "id": 107,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002N11/qid=1097963237/sr=8-1/ref=pd_csp_1/104-8069470-6170337?v=glance&s=music&n=507846",
+    "cover": "../album covers/cibo.jpg",
+    "page": "pages/cibo.html"
+  },
+  {
+    "id": 108,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002W51/qid=1097210923/sr=2-1/ref=pd_ka_2_1/103-0964762-8845413",
+    "cover": "../album covers/Arnold.jpg",
+    "page": "pages/arnold2.html"
+  },
+  {
+    "id": 109,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002URV/qid=1098675677/sr=8-2/ref=pd_csp_2/103-9896284-0277418?v=glance&s=music&n=507846",
+    "cover": "../album covers/enigma.jpg",
+    "page": "pages/enigma.html"
+  },
+  {
+    "id": 110,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LJE/qid=1101079763/sr=8-1/ref=pd_csp_1/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/stalling.jpg",
+    "page": "pages/stalling.html"
+  },
+  {
+    "id": 111,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KJ1/qid=1098332367/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/devo.jpg",
+    "page": "pages/devo3.html"
+  },
+  {
+    "id": 112,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005NNDO/qid=1101243670/sr=1-2/ref=sr_1_2/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/winston.jpg",
+    "page": "pages/winston2.html"
+  },
+  {
+    "id": 113,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002PEH/qid=1100402500/sr=8-3/ref=sr_8_xs_ap_i3_xgl15/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/mills.jpg",
+    "page": "pages/mills.html"
+  },
+  {
+    "id": 114,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000038YL/qid=1100476688/sr=8-7/ref=sr_8_xs_ap_i7_xgl15/103-9917452-4706207?v=glance&s=music&n=507846",
+    "cover": "../album covers/negativland.jpg",
+    "page": "pages/negativland2.html"
+  },
+  {
+    "id": 115,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000256VN/qid=1100820796/sr=1-7/ref=sr_1_7/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/roxy.jpg",
+    "page": "pages/roxy.html"
+  },
+  {
+    "id": 116,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LD0/qid=1101157576/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/talking heads.jpg",
+    "page": "pages/talking2.html"
+  },
+  {
+    "id": 117,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005ATHH/qid=1101245928/sr=1-11/ref=sr_1_11/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/xtc.jpg",
+    "page": "pages/xtc.html"
+  },
+  {
+    "id": 118,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005S84K/qid=1099502893/sr=8-1/ref=pd_csp_1/103-9604921-7103856?v=glance&s=music&n=507846",
+    "cover": "../album covers/haircut.jpg",
+    "page": "pages/haircut.html"
+  },
+  {
+    "id": 119,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005ATHH/qid=1101245928/sr=1-11/ref=sr_1_11/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/xtc.jpg",
+    "page": "pages/xtc2.html"
+  },
+  {
+    "id": 120,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005ATHH/qid=1101245928/sr=1-11/ref=sr_1_11/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/xtc.jpg",
+    "page": "pages/xtc4.html"
+  },
+  {
+    "id": 121,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000D9VL/qid=1099023906/sr=2-1/ref=pd_ka_b_2_1/102-3109542-5671338",
+    "cover": "../album covers/fatboy.jpg",
+    "page": "pages/fatboy.html"
+  },
+  {
+    "id": 122,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000007O19/qid=1098335973/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/dolby.jpg",
+    "page": "pages/dolby.html"
+  },
+  {
+    "id": 123,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005ATHH/qid=1101245928/sr=1-11/ref=sr_1_11/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/xtc.jpg",
+    "page": "pages/xtc3.html"
+  },
+  {
+    "id": 124,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello8.html"
+  },
+  {
+    "id": 125,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001FS6/qid=1101168506/sr=1-16/ref=sr_1_16/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/u2.jpg",
+    "page": "pages/u2.html"
+  },
+  {
+    "id": 126,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000024IE/qid=1100734127/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/public enemy.jpg",
+    "page": "pages/public.html"
+  },
+  {
+    "id": 127,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DTFW/qid=1098158645/sr=1-11/ref=sr_1_11/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/darling.jpg",
+    "page": "pages/darling.html"
+  },
+  {
+    "id": 128,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FY5/qid=1100045899/sr=2-1/ref=pd_ka_b_2_1/104-4093826-5309536",
+    "cover": "../album covers/marley.jpg",
+    "page": "pages/marley.html"
+  },
+  {
+    "id": 129,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000000GPY/qid=1100495161/sr=2-2/ref=pd_ka_b_2_2/103-9917452-4706207",
+    "cover": "../album covers/nine inch.jpg",
+    "page": "pages/nine.html"
+  },
+  {
+    "id": 130,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000005J08/qid=1100407973/sr=2-1/ref=pd_ka_b_2_1/104-4093826-5309536",
+    "cover": "../album covers/naked.jpg",
+    "page": "pages/naked.html"
+  },
+  {
+    "id": 131,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy7.html"
+  },
+  {
+    "id": 132,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DTFW/qid=1098158645/sr=1-11/ref=sr_1_11/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/darling.jpg",
+    "page": "pages/darling2.html"
+  },
+  {
+    "id": 133,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00006IRJT/qid=1099509974/sr=2-3/ref=pd_ka_b_2_3/103-9604921-7103856glance%26s=music",
+    "cover": "../album covers/icehouse.jpg",
+    "page": "pages/icehouse.html"
+  },
+  {
+    "id": 134,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000065VCP/qid=1099178054/sr=8-8/ref=pd_ka_8/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gabriel.jpg",
+    "page": "pages/gabriel5.html"
+  },
+  {
+    "id": 135,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001PAS/qid=1101166802/sr=2-3/ref=pd_ka_b_2_3/104-1100646-8208710",
+    "cover": "../album covers/tipsy.jpg",
+    "page": "pages/tipsy.html"
+  },
+  {
+    "id": 136,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GC6/ref=m_art_li_10/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/oingo.jpg",
+    "page": "pages/oingo.html"
+  },
+  {
+    "id": 137,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002MM1/qid=1097897669/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/byrne - eno.jpg",
+    "page": "pages/byrne.html"
+  },
+  {
+    "id": 138,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000256VN/qid=1100820796/sr=1-7/ref=sr_1_7/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/roxy.jpg",
+    "page": "pages/roxy4.html"
+  },
+  {
+    "id": 139,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GWX/ref=pd_bxgy_img_2/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/cars.jpg",
+    "page": "pages/cars.html"
+  },
+  {
+    "id": 140,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000257O9/qid=1097806983/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/Buggles.jpg",
+    "page": "pages/buggles.html"
+  },
+  {
+    "id": 141,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000009RV/qid=1101252402/sr=1-1/ref=sr_1_1/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/zappa.jpg",
+    "page": "pages/zappa2.html"
+  },
+  {
+    "id": 142,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002L84/ref=m_art_li_7/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/ministry.jpg",
+    "page": "pages/ministry.html"
+  },
+  {
+    "id": 143,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DFMN/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/AoN.jpg",
+    "page": "pages/art4.html"
+  },
+  {
+    "id": 144,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002W51/qid=1097210923/sr=2-1/ref=pd_ka_2_1/103-0964762-8845413",
+    "cover": "../album covers/Arnold.jpg",
+    "page": "pages/arnold.html"
+  },
+  {
+    "id": 145,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000OAN/qid=1100735096/sr=1-10/ref=sr_1_10/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/queen.jpg",
+    "page": "pages/queen3.html"
+  },
+  {
+    "id": 146,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DQT0/qid=1099527195/sr=1-10/ref=sr_1_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/kraftwerk.jpg",
+    "page": "pages/kraftwerk.html"
+  },
+  {
+    "id": 147,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LSP/qid=1099875827/sr=8-3/ref=pd_csp_3/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lang.jpg",
+    "page": "pages/lang2.html"
+  },
+  {
+    "id": 148,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello6.html"
+  },
+  {
+    "id": 149,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy4.html"
+  },
+  {
+    "id": 150,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005NNDO/qid=1101243670/sr=1-2/ref=sr_1_2/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/winston.jpg",
+    "page": "pages/winston5.html"
+  },
+  {
+    "id": 151,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000256VN/qid=1100820796/sr=1-7/ref=sr_1_7/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/roxy.jpg",
+    "page": "pages/roxy3.html"
+  },
+  {
+    "id": 152,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000I2B0/qid=1100496255/sr=1-2/ref=sr_1_2/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/numan.jpg",
+    "page": "pages/numan.html"
+  },
+  {
+    "id": 153,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000006NIF/qid=1099878231/sr=1-3/ref=sr_1_3/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/lanterna.jpg",
+    "page": "pages/lanterna.html"
+  },
+  {
+    "id": 154,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000000OAN/qid=1100735096/sr=1-10/ref=sr_1_10/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/queen.jpg",
+    "page": "pages/queen.html"
+  },
+  {
+    "id": 155,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00008NF6J/qid=1100584281/sr=1-6/ref=sr_1_6/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/orchestral.jpg",
+    "page": "pages/orchestral.html"
+  },
+  {
+    "id": 156,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001ZS8/ref=m_art_li_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/jarre.jpg",
+    "page": "pages/jarre2.html"
+  },
+  {
+    "id": 157,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003S30/qid=1098766096/sr=8-1/ref=pd_ka_1/103-9896284-0277418?v=glance&s=music&n=507846",
+    "cover": "../album covers/eno - roger.jpg",
+    "page": "pages/eno-r.html"
+  },
+  {
+    "id": 158,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005QGAZ/qid=1099521309/sr=1-2/ref=sr_1_2/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/jackson - michael.jpg",
+    "page": "pages/jackson-m2.html"
+  },
+  {
+    "id": 159,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008M99/qid=1101233709/sr=1-21/ref=sr_1_21/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/whitman.jpg",
+    "page": "pages/whitman.html"
+  },
+  {
+    "id": 160,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000027GI/qid=1099265585/sr=8-4/ref=pd_csp_4/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/hagen.jpg",
+    "page": "pages/hagen2.html"
+  },
+  {
+    "id": 161,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003S2K/qid=1098676297/sr=1-1/ref=sr_1_1/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eno - brian.jpg",
+    "page": "pages/eno-b.html"
+  },
+  {
+    "id": 162,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GC6/ref=m_art_li_10/103-9917452-4706207?v=glance&s=music",
+    "cover": "../album covers/oingo.jpg",
+    "page": "pages/oingo3.html"
+  },
+  {
+    "id": 163,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000006045/qid=1100063745/sr=8-1/ref=pd_csp_1/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/massive.jpg",
+    "page": "pages/massive.html"
+  },
+  {
+    "id": 164,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002HKI/qid=1099504902/sr=1-3/ref=sr_1_3/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/harris.jpg",
+    "page": "pages/harris.html"
+  },
+  {
+    "id": 165,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00001OH7M/qid=1097724101/sr=5-1/ref=cm_lm_asin/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/Bowie.jpg",
+    "page": "pages/bowie.html"
+  },
+  {
+    "id": 166,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000065VCP/qid=1099178054/sr=8-8/ref=pd_ka_8/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gabriel.jpg",
+    "page": "pages/gabriel4.html"
+  },
+  {
+    "id": 167,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001FS6/qid=1101168506/sr=1-16/ref=sr_1_16/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/u2.jpg",
+    "page": "pages/u22.html"
+  },
+  {
+    "id": 168,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002GJO/qid=1097945967/sr=2-3/ref=pd_ka_b_2_3/104-8069470-6170337",
+    "cover": "../album covers/childs.jpg",
+    "page": "pages/childs.html"
+  },
+  {
+    "id": 169,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GDO/qid=1097210218/sr=1-6/ref=sr_1_6/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Armitrading.jpg",
+    "page": "pages/armatrading.html"
+  },
+  {
+    "id": 170,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000321Z/qid=1101245538/sr=2-1/ref=pd_ka_b_2_1/104-1100646-8208710",
+    "cover": "../album covers/worrell.jpg",
+    "page": "pages/worrell.html"
+  },
+  {
+    "id": 171,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000009RV/qid=1101252402/sr=1-1/ref=sr_1_1/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/zappa.jpg",
+    "page": "pages/zappa.html"
+  },
+  {
+    "id": 172,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00004RIWF/qid=1101169583/sr=2-3/ref=pd_ka_b_2_3/104-1100646-8208710",
+    "cover": "../album covers/ultravox.jpg",
+    "page": "pages/ultravox2.html"
+  },
+  {
+    "id": 173,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005NNDO/qid=1101243670/sr=1-2/ref=sr_1_2/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/winston.jpg",
+    "page": "pages/winston3.html"
+  },
+  {
+    "id": 174,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00006L5PQ/qid=1098072749/sr=1-1/ref=sr_1_1/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/cocteau.jpg",
+    "page": "pages/cocteau2.html"
+  },
+  {
+    "id": 175,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002MWG/qid=1099513797/sr=2-1/ref=pd_ka_b_2_1/103-9604921-7103856",
+    "cover": "../album covers/isaak.jpg",
+    "page": "pages/isaak.html"
+  },
+  {
+    "id": 176,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000000D6N/qid=1097806212/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/Brown.jpg",
+    "page": "pages/brown.html"
+  },
+  {
+    "id": 177,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00002433T/qid=1099239255/sr=8-1/ref=sr_8_xs_ap_i1_xgl15/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gasparyan.jpg",
+    "page": "pages/gasparyan.html"
+  },
+  {
+    "id": 178,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy2.html"
+  },
+  {
+    "id": 179,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002H27/qid=1100065581/sr=1-3/ref=sr_1_3/104-4093826-5309536?v=glance&s=music",
+    "cover": "../album covers/mcferrin.jpg",
+    "page": "pages/mcferrin.html"
+  },
+  {
+    "id": 180,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000026Z88/qid=1100026393/sr=8-13/ref=sr_8_xs_ap_i13_xgl15/104-4093826-5309536?v=glance&s=music&n=507846",
+    "cover": "../album covers/lovich.jpg",
+    "page": "pages/lovich3.html"
+  },
+  {
+    "id": 181,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000063RRG/qid=1097208830/sr=1-2/ref=sr_1_2/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Anderson.jpg",
+    "page": "pages/anderson.html"
+  },
+  {
+    "id": 182,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002LH4/qid=1098138563/sr=2-1/ref=pd_ka_b_2_1/104-8069470-6170337",
+    "cover": "../album covers/cruise.jpg",
+    "page": "pages/cruise.html"
+  },
+  {
+    "id": 183,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000063XAR/qid=1099806039/sr=2-1/ref=pd_ka_b_2_1/104-4093826-5309536",
+    "cover": "../album covers/landscape.jpg",
+    "page": "pages/landscape.html"
+  },
+  {
+    "id": 184,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002GYW/ref=m_art_li_6/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eagles.jpg",
+    "page": "pages/eagles.html"
+  },
+  {
+    "id": 185,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000075WF/qid=1101231002/sr=2-1/ref=pd_ka_b_2_1/104-1100646-8208710",
+    "cover": "../album covers/visage.jpg",
+    "page": "pages/visage2.html"
+  },
+  {
+    "id": 186,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000009RV/qid=1101252402/sr=1-1/ref=sr_1_1/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/zappa.jpg",
+    "page": "pages/zappa4.html"
+  },
+  {
+    "id": 187,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002HKI/qid=1099504902/sr=1-3/ref=sr_1_3/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/harris.jpg",
+    "page": "pages/harris2.html"
+  },
+  {
+    "id": 188,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000IKTC/qid=1099018543/sr=8-2/ref=pd_csp_2/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/fantomas.jpg",
+    "page": "pages/fantomas.html"
+  },
+  {
+    "id": 189,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002G8W/qid=1097123817/sr=1-9/ref=sr_1_9/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Alpert.jpg",
+    "page": "pages/alpert.html"
+  },
+  {
+    "id": 190,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DFMN/ref=m_art_li_7/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/AoN.jpg",
+    "page": "pages/art2.html"
+  },
+  {
+    "id": 191,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002MSM/qid=1098766733/sr=1-6/ref=sr_1_6/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/enya.jpg",
+    "page": "pages/enya.html"
+  },
+  {
+    "id": 192,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0000035G8/qid=1098137873/sr=8-2/ref=pd_csp_2/104-8069470-6170337?v=glance&s=music&n=507846",
+    "cover": "../album covers/combustible.jpg",
+    "page": "pages/combustible.html"
+  },
+  {
+    "id": 193,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002U82/qid=1100731035/sr=1-4/ref=sr_1_4/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/pink floyd.jpg",
+    "page": "pages/pink.html"
+  },
+  {
+    "id": 194,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002NW4/qid=1098051854/sr=11-1/ref=sr_11_1/104-8069470-6170337",
+    "cover": "../album covers/cline.jpg",
+    "page": "pages/cline.html"
+  },
+  {
+    "id": 195,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005QGAZ/qid=1099521309/sr=1-2/ref=sr_1_2/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/jackson - michael.jpg",
+    "page": "pages/jackson-m.html"
+  },
+  {
+    "id": 196,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000005DB9/ref=m_art_li_5/104-9958823-8811953?v=glance&s=music",
+    "cover": "../album covers/severed.jpg",
+    "page": "pages/severed.html"
+  },
+  {
+    "id": 197,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00005CDNH/qid=1096951142/sr=1-18/ref=sr_1_18/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Abba.jpg",
+    "page": "pages/abba.html"
+  },
+  {
+    "id": 198,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000003S2K/qid=1098676297/sr=1-1/ref=sr_1_1/103-9896284-0277418?v=glance&s=music",
+    "cover": "../album covers/eno - brian.jpg",
+    "page": "pages/eno-b4.html"
+  },
+  {
+    "id": 199,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002UAU/qid=1097555573/sr=1-3/ref=sr_1_3/103-0964762-8845413?v=glance&s=music",
+    "cover": "../album covers/Beatles.jpg",
+    "page": "pages/beatles.html"
+  },
+  {
+    "id": 200,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000AG8P/qid=1099525214/sr=2-1/ref=pd_ka_b_2_1/103-9604921-7103856",
+    "cover": "../album covers/jude.jpg",
+    "page": "pages/jude.html"
+  },
+  {
+    "id": 201,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001ZS8/ref=m_art_li_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/jarre.jpg",
+    "page": "pages/jarre.html"
+  },
+  {
+    "id": 202,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B0000084W9/qid=1101314090/sr=11-1/ref=sr_11_1/104-9958823-8811953",
+    "cover": "../album covers/siberry.jpg",
+    "page": "pages/siberry.html"
+  },
+  {
+    "id": 203,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00004RIWF/qid=1101169583/sr=2-3/ref=pd_ka_b_2_3/104-1100646-8208710",
+    "cover": "../album covers/ultravox.jpg",
+    "page": "pages/ultravox.html"
+  },
+  {
+    "id": 204,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000065VCP/qid=1099178054/sr=8-8/ref=pd_ka_8/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/gabriel.jpg",
+    "page": "pages/gabriel2.html"
+  },
+  {
+    "id": 205,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000167XW6/qid=1101081785/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/synergy.jpg",
+    "page": "pages/synergy.html"
+  },
+  {
+    "id": 206,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000002KBU/qid=1100405695/sr=2-3/ref=pd_ka_b_2_3/104-4093826-5309536",
+    "cover": "../album covers/mitchell.jpg",
+    "page": "pages/mitchell.html"
+  },
+  {
+    "id": 207,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001F4J/qid=1101229860/sr=8-5/ref=pd_ka_5/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/vangelis.jpg",
+    "page": "pages/vangelis.html"
+  },
+  {
+    "id": 208,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B00000DQT0/qid=1099527195/sr=1-10/ref=sr_1_10/103-9604921-7103856?v=glance&s=music",
+    "cover": "../album covers/kraftwerk.jpg",
+    "page": "pages/kraftwerk2.html"
+  },
+  {
+    "id": 209,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000005ALR/qid=1099110899/sr=8-1/ref=sr_8_xs_ap_i1_xgl15/102-3109542-5671338?v=glance&s=music&n=507846",
+    "cover": "../album covers/forest.jpg",
+    "page": "pages/forest.html"
+  },
+  {
+    "id": 210,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000002LT1/qid=1097899929/sr=1-1/ref=sr_1_1/104-8069470-6170337?v=glance&s=music",
+    "cover": "../album covers/cadell.jpg",
+    "page": "pages/cadell.html"
+  },
+  {
+    "id": 211,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000003S7Z/qid=1098073840/sr=2-2/ref=pd_ka_b_2_2/104-8069470-6170337",
+    "cover": "../album covers/coldcut.jpg",
+    "page": "pages/coldcut.html"
+  },
+  {
+    "id": 212,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00002JX2H/qid=1101251828/sr=11-1/ref=sr_11_1/104-1100646-8208710",
+    "cover": "../album covers/ymo.jpg",
+    "page": "pages/ymo.html"
+  },
+  {
+    "id": 213,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000005DAZ/ref=m_art_li_5/104-9958823-8811953?v=glance&s=music",
+    "cover": "../album covers/spk.jpg",
+    "page": "pages/SPK.html"
+  },
+  {
+    "id": 214,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B000001FMS/qid=1101248179/sr=2-2/ref=pd_ka_b_2_2/104-1100646-8208710",
+    "cover": "../album covers/yello.jpg",
+    "page": "pages/yello4.html"
+  },
+  {
+    "id": 215,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000008OZ2/qid=1100725131/sr=8-2/ref=pd_csp_2/104-1100646-8208710?v=glance&s=music&n=507846",
+    "cover": "../album covers/penguin.jpg",
+    "page": "pages/penguin.html"
+  },
+  {
+    "id": 216,
+    "url": "http://www.amazon.com/exec/obidos/ASIN/B00000I0QQ/qid=1101313492/sr=2-1/ref=pd_ka_b_2_1/104-9958823-8811953",
+    "cover": "../album covers/shaggs.jpg",
+    "page": "pages/shaggs.html"
+  },
+  {
+    "id": 217,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B000001FTJ/qid=1101232253/sr=1-9/ref=sr_1_9/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/waits.jpg",
+    "page": "pages/waits.html"
+  },
+  {
+    "id": 218,
+    "url": "http://www.amazon.com/exec/obidos/tg/detail/-/B0002BO0DA/qid=1100819691/sr=1-8/ref=sr_1_8/104-1100646-8208710?v=glance&s=music",
+    "cover": "../album covers/redbone.jpg",
+    "page": "pages/redbone.html"
+  }
+]
