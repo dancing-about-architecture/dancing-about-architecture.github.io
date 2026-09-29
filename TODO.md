@@ -24,8 +24,9 @@ Getting Site Working Well / Technical
 - [x] Made the Wendy Carlos notice a real popup window (`window.open` with fixed size) instead of a plain new-tab link, and trimmed the notice page itself down (dropped the site logo/nav chrome, added a close link) so it reads well at popup size
 - [x] Remove all mp3s of copyrighted music ... illegal :( — `A-Z 128/` now has zero mp3 files and nothing on the site links to one; every song page moved to YouTube (or, for Wendy Carlos, the notice page) one at a time above
     - (this was specifically the music-copyright issue — the site's own ~55 podcast episodes in `threads/podcasts.html` are original spoken-word content and were never a problem either way, same as Lonesome Pie)
-- [ ] Audit all external links sitewide — some may be dead or point somewhere we don't want
+- [x] Audit all external links sitewide — checked all non-Amazon/non-YouTube external links (see `DEADLINKS.md`); 11 had been domain-squatted into spam (gambling, financial, dating) and 34 were dead, all fixed by pointing to the closest Wayback Machine snapshot to Nov 1, 2005, or (for the 2 with no snapshot available) a popup notice page
     - also covers cleanup of stray `?v=glance&s=music` query strings accidentally copy-pasted onto local paths (86 pages on an image path, 8 pages on a link)
+- [ ] `www.juniorbrown.com` link — still unresolved, gets a geo-block page ("wrong country") when checked, so status is unknown rather than confirmed dead; needs checking from a different location/VPN
 - [ ] Restructure Site??
     - the vast majority of pages (305–326 of 329) still rely on `<spacer>`, `<font>`, and `<table>`-based layout from the original Adobe GoLive export — `<spacer>` in particular hasn't rendered in any browser for ~20 years, so a lot of original spacing is already silently gone
 
@@ -42,6 +43,7 @@ Wish List
     - [ ] Make CSS work well on mobile — no page (0 of 329) has a `<meta name="viewport">` tag; this is likely the single highest-leverage fix here
     - [ ] Check Resolution of everything to make sure it works 2x
     - [ ] Build custom scrollbars?
+    - [ ] Do cool good typography for apostrophes and quotation marks
     - [ ] Add favicon — confirmed 0 of 329 pages reference one
     - [ ] d a n c i n g xxa b o u t xxa r c h i t e c t u r e ... as much as I love this -> properly implement it everywhere
         - currently hand-baked into ~300 pages individually via a same-color-as-background font-color trick instead of CSS `letter-spacing`
