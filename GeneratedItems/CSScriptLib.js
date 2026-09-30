@@ -35,10 +35,12 @@ function CSSetCSS2Props(si, id) {
 	if (el==null) return;
 	var style=document.getElementById(id).style;
 	if (style) {
-		if (style.left=="") style.left=CSGetStyleAttrValue(si,"left");
-		if (style.top=="") style.top=CSGetStyleAttrValue(si,"top");
-		if (style.width=="") style.width=CSGetStyleAttrValue(si,"width");
-		if (style.height=="") style.height=CSGetStyleAttrValue(si,"height");
+		// A-Z menu position and size belong to the shared responsive CSS.
+		var isAlphabetMenu = /^[a-z]list$/.test(id);
+		if (!isAlphabetMenu && style.left=="") style.left=CSGetStyleAttrValue(si,"left");
+		if (!isAlphabetMenu && style.top=="") style.top=CSGetStyleAttrValue(si,"top");
+		if (!isAlphabetMenu && style.width=="") style.width=CSGetStyleAttrValue(si,"width");
+		if (!isAlphabetMenu && style.height=="") style.height=CSGetStyleAttrValue(si,"height");
 		if (style.visibility=="") style.visibility=CSGetStyleAttrValue(si,"visibility");
 		if (style.zIndex=="") style.zIndex=CSGetStyleAttrValue(si,"z-index");
 	}

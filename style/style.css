@@ -1,17 +1,9 @@
 body {
-    font-family: "Times", "Times New Roman", Serif;
-    font-smooth: never;
-    -webkit-font-smoothing : none;
-    cursor: url("cursors/default-cursor.png"), default;
-}
-
-a, a font, select, button {
-  cursor: url("cursors/click-cursor.png"), pointer;
-}
-
-input[type="text"], input[type="search"], input:not([type]), textarea,
-font {
-  cursor: url("cursors/beam-cursor.png"), text;
+  font-family: "Times", "Times New Roman", serif;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 select {
@@ -32,10 +24,10 @@ select {
 }
 
 select::-ms-expand {
-     display: none;
+  display: none;
 }
 
-form:after {
+form::after {
   content: url("arrow.svg");
   color: #000;
   background-color: #cccccc;
@@ -46,7 +38,7 @@ form:after {
   border-left-color: #fff;
   border-right-color: #888;
   border-bottom-color: #888;
-  box-shadow: 1px 1px #404040, -1px -1px #cccccc, 0px 1px #404040, 1px 0px #404040, 0px -1px #cccccc, -1px 0px #cccccc;
+  box-shadow: 1px 1px #404040, -1px -1px #cccccc, 0 1px #404040, 1px 0 #404040, 0 -1px #cccccc, -1px 0 #cccccc;
   position: absolute;
   left: 163px;
   top: 3px;
@@ -55,31 +47,19 @@ form:after {
   pointer-events: none;
 }
 
-form:active:after{
+form:active::after {
   background-color: #eee;
   border-bottom-color: #fff;
   border-right-color: #fff;
   border-left-color: #888;
   border-top-color: #888;
-  box-shadow: -1px -1px #404040, 1px 1px #cccccc, 0px -1px #404040, -1px 0px #404040, 0px 1px #cccccc, 1px 0px #cccccc;
-
-}
-
-body{
-  margin-left: 30px;
-  margin-right: 30px;
+  box-shadow: -1px -1px #404040, 1px 1px #cccccc, 0 -1px #404040, -1px 0 #404040, 0 1px #cccccc, 1px 0 #cccccc;
 }
 
 div p font img {
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
+  border: 1px solid black;
 }
 
-/* Retro cursors site-wide: 1x base with 1.5x/2x swaps for high-DPI screens.
-   Hotspots: arrow tip, fingertip top, I-beam middle.
-   I-beam only on text fields and font (inline), so whitespace keeps the arrow.
-   Arrow forced on .ie-scrollbar chrome: its own CSS sets native cursors. */
 html,
 body,
 body .ie-scrollbar,
@@ -207,4 +187,97 @@ font {
 a[href="start.html"],
 a[href="../pages/start.html"] {
   color: #999999;
+}
+
+div[align="center"] > p {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div[align="left"] > p {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+table[width="669"] {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table[width="669"] td {
+  width: auto;
+}
+
+div#alist,
+div#blist,
+div#clist,
+div#dlist,
+div#elist,
+div#flist,
+div#glist,
+div#hlist,
+div#ilist,
+div#jlist,
+div#klist,
+div#llist,
+div#mlist {
+  left: max(calc(20vw - 17px), calc(50vw - 449px)) !important;
+  width: 185px !important;
+}
+
+div#nlist,
+div#olist,
+div#plist,
+div#qlist,
+div#rlist,
+div#slist,
+div#tlist,
+div#ulist,
+div#vlist,
+div#wlist,
+div#xlist,
+div#ylist,
+div#zlist {
+  left: auto !important;
+  width: 185px !important;
+  right: max(calc(20vw - 17px), calc(50vw - 449px));
+}
+
+@media (max-width: 835px) {
+  div#alist,
+  div#blist,
+  div#clist,
+  div#dlist,
+  div#elist,
+  div#flist,
+  div#glist,
+  div#hlist,
+  div#ilist,
+  div#jlist,
+  div#klist,
+  div#llist,
+  div#mlist {
+    left: calc(50vw - 267.5px) !important;
+  }
+
+  div#nlist,
+  div#olist,
+  div#plist,
+  div#qlist,
+  div#rlist,
+  div#slist,
+  div#tlist,
+  div#ulist,
+  div#vlist,
+  div#wlist,
+  div#xlist,
+  div#ylist,
+  div#zlist {
+    right: calc(50vw - 267.5px);
+  }
 }
