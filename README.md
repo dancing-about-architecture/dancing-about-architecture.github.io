@@ -18,7 +18,7 @@ I just so happen to know the maker of this site personally, and I just so happen
 
 That is what [dance.archi](https://dance.archi/) is. A home for it again.
 
-[![The Dad thread, with a photograph and links to the music connected to his story](docs/screenshots/dad.png)](https://dance.archi/threads/dad.html)
+[![The main start page, with its alphabet index, dice, and iPod](docs/screenshots/start.png)](https://dance.archi/pages/start.html)
 
 ## The vision
 
@@ -36,7 +36,7 @@ I want the site to *feel* the way it did to browse in the early aughts. It was b
 
 I've kept the writing largely as it was, with occasional corrections. You will notice little things throughout the site that remind you it's from an older era of the web. References to Internet Explorer. Things that are no longer current. Some references and attitudes that are a little out of date. Those are part of its history, too.
 
-[![The David Bowie page, with Space Oddity artwork, listening and podcast icons, and the original music writing](docs/screenshots/bowie.png)](https://dance.archi/pages/bowie.html)
+[![The David Bowie page, with dropdown menus on both sides, Space Oddity artwork, and the original music writing](docs/screenshots/bowie.png)](https://dance.archi/pages/bowie.html)
 
 The internet around the site has changed as well. Many of the bands and artists it links to once had their own websites, and those sites have since disappeared. Where possible, I've replaced broken links with [Wayback Machine](https://web.archive.org/) copies from as close to the site's original era as I can find.
 
