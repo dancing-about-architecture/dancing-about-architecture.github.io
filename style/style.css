@@ -281,3 +281,28 @@ div#zlist {
     right: calc(50vw - 267.5px);
   }
 }
+
+/* Native controls over the existing artwork let touch users open a picker in one tap. */
+.alphabet-touch-pickers {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  pointer-events: none;
+}
+
+.alphabet-touch-pickers > select {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: auto;
+  font-size: 16px;
+}
+
+.alphabet-touch-pickers > select:focus-visible {
+  opacity: 1;
+  color: transparent;
+  background: transparent;
+  outline: 2px solid #000;
+}

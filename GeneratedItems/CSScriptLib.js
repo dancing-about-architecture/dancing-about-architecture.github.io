@@ -2101,3 +2101,88 @@ function SetCookie (cookiename, value) {
     ((secure == true) ? "; secure" : "");
 }
 // EOF
+
+// Let a touch on an alphabet letter open its native artist picker directly.
+(function () {
+    function initAlphabetPickers() {
+        if (!window.matchMedia || !document.querySelectorAll) return;
+        var touch = window.matchMedia('(pointer: coarse)');
+        var images = document.querySelectorAll('img[usemap]');
+        var overlays = [];
+
+        function positionPickers() {
+            for (var i = 0; i < overlays.length; i++) {
+                var item = overlays[i];
+                var rect = item.image.getBoundingClientRect();
+                item.layer.style.left = (rect.left + window.pageXOffset) + 'px';
+                item.layer.style.top = (rect.top + window.pageYOffset) + 'px';
+                item.layer.style.width = rect.width + 'px';
+                item.layer.style.height = rect.height + 'px';
+                item.layer.style.display = touch.matches ? 'block' : 'none';
+            }
+        }
+
+        for (var i = 0; i < images.length; i++) {
+            var image = images[i];
+            var mapName = image.getAttribute('usemap').replace(/^#/, '');
+            var map = document.getElementById(mapName) || document.getElementsByName(mapName)[0];
+            if (!map) continue;
+            var areas = map.getElementsByTagName('area');
+            var layer = document.createElement('div');
+            layer.className = 'alphabet-touch-pickers';
+            var width = Number(image.getAttribute('width')) || image.naturalWidth;
+            var height = Number(image.getAttribute('height')) || image.naturalHeight;
+            if (!width || !height) continue;
+
+            for (var j = 0; j < areas.length; j++) {
+                var ids = (areas[j].getAttribute('csclick') || '').split(',');
+                var original = null;
+                var letter = '';
+                for (var k = 0; k < ids.length; k++) {
+                    var action = window.CSAct && window.CSAct[ids[k]];
+                    if (action && action[0] === CSShowHide && /^[a-z]list$/.test(action[1]) && action[2] === 2) {
+                        var menu = document.getElementById(action[1]);
+                        original = menu && menu.querySelector('select');
+                        letter = action[1].charAt(0).toUpperCase();
+                        break;
+                    }
+                }
+                var coords = (areas[j].getAttribute('coords') || '').split(',').map(Number);
+                if (!original || coords.length !== 4 || coords.some(function (n) { return !isFinite(n); })) continue;
+                var picker = original.cloneNode(true);
+                picker.removeAttribute('id');
+                picker.removeAttribute('name');
+                picker.removeAttribute('onchange');
+                picker.setAttribute('aria-label', 'Artists beginning with ' + letter);
+                picker.style.left = (coords[0] / width * 100) + '%';
+                picker.style.top = (coords[1] / height * 100) + '%';
+                picker.style.width = ((coords[2] - coords[0]) / width * 100) + '%';
+                picker.style.height = ((coords[3] - coords[1]) / height * 100) + '%';
+                (function (source, control) {
+                    control.addEventListener('change', function () {
+                        source.value = control.value;
+                        if (typeof source.onchange === 'function') source.onchange.call(source);
+                    });
+                })(original, picker);
+                layer.appendChild(picker);
+            }
+            if (!layer.children.length) continue;
+            document.body.appendChild(layer);
+            overlays.push({ image: image, layer: layer });
+            image.addEventListener('load', positionPickers);
+        }
+        positionPickers();
+        window.addEventListener('resize', positionPickers);
+        window.addEventListener('pageshow', positionPickers);
+        if (touch.addEventListener) touch.addEventListener('change', positionPickers);
+        else if (touch.addListener) touch.addListener(positionPickers);
+        if (window.ResizeObserver) {
+            var observer = new ResizeObserver(positionPickers);
+            observer.observe(document.body);
+            for (var n = 0; n < overlays.length; n++) observer.observe(overlays[n].image);
+        }
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(positionPickers);
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAlphabetPickers);
+    else initAlphabetPickers();
+})();
