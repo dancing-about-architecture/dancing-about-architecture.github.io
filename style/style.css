@@ -306,3 +306,70 @@ div#zlist {
   background: transparent;
   outline: 2px solid #000;
 }
+
+/* ========================================================================== 
+   MOBILE
+   Remove this section to undo the mobile layout. Desktop starts at 800px.
+   Keep the original typography, colours, borders and centred composition.
+   ========================================================================== */
+@media (width < 800px) {
+  body {
+    margin-left: 12px;
+    margin-right: 12px;
+    overflow-wrap: break-word;
+  }
+
+  img {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .mobile-alphabet img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 2880.9003 / 1410.0649;
+  }
+
+  /* GoLive's fixed-width tables and spacer rows otherwise widen the page. */
+  table {
+    max-width: 100%;
+  }
+
+  table[width="669"] {
+    width: 100%;
+  }
+
+  table[width="669"] tr[cntrlrow],
+  spacer {
+    display: none;
+  }
+
+  iframe, video, audio, embed, object {
+    max-width: 100%;
+  }
+
+  iframe[src*="youtube"], iframe[src*="youtu.be"] {
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+
+  /* Pickers sit directly over the four-row artwork on small screens. */
+  div:is(#alist, #blist, #clist, #dlist, #elist, #flist, #glist,
+         #hlist, #ilist, #jlist, #klist, #llist, #mlist, #nlist,
+         #olist, #plist, #qlist, #rlist, #slist, #tlist, #ulist,
+         #vlist, #wlist, #xlist, #ylist, #zlist) {
+    display: none !important;
+  }
+
+  .alphabet-touch-pickers > select {
+    min-width: 0;
+  }
+}
+/* END MOBILE =============================================================== */

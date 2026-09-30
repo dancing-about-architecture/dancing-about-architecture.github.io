@@ -2107,6 +2107,8 @@ function SetCookie (cookiename, value) {
     function initAlphabetPickers() {
         if (!window.matchMedia || !document.querySelectorAll) return;
         var touch = window.matchMedia('(pointer: coarse)');
+        // MOBILE: the alternate artwork has two seven-letter and two six-letter rows.
+        var mobile = window.matchMedia('(width < 800px)');
         var images = document.querySelectorAll('img[usemap]');
         var overlays = [];
 
@@ -2114,11 +2116,26 @@ function SetCookie (cookiename, value) {
             for (var i = 0; i < overlays.length; i++) {
                 var item = overlays[i];
                 var rect = item.image.getBoundingClientRect();
+                var mobileHeader = mobile.matches && item.image.parentNode.className === 'mobile-alphabet';
+                for (var j = 0; j < item.layer.children.length; j++) {
+                    var picker = item.layer.children[j];
+                    if (mobileHeader) {
+                        var index = picker.alphabetLetter.charCodeAt(0) - 65;
+                        var row = index < 14 ? Math.floor(index / 7) : 2 + Math.floor((index - 14) / 6);
+                        var column = index < 14 ? index % 7 : (index - 14) % 6;
+                        picker.style.left = ((column + (row < 2 ? 0 : 0.5)) / 7 * 100) + '%';
+                        picker.style.top = (row * 25) + '%';
+                        picker.style.width = (100 / 7) + '%';
+                        picker.style.height = '25%';
+                    } else {
+                        picker.style.cssText = picker.desktopStyle;
+                    }
+                }
                 item.layer.style.left = (rect.left + window.pageXOffset) + 'px';
                 item.layer.style.top = (rect.top + window.pageYOffset) + 'px';
                 item.layer.style.width = rect.width + 'px';
                 item.layer.style.height = rect.height + 'px';
-                item.layer.style.display = touch.matches ? 'block' : 'none';
+                item.layer.style.display = touch.matches || mobileHeader ? 'block' : 'none';
             }
         }
 
@@ -2158,6 +2175,8 @@ function SetCookie (cookiename, value) {
                 picker.style.top = (coords[1] / height * 100) + '%';
                 picker.style.width = ((coords[2] - coords[0]) / width * 100) + '%';
                 picker.style.height = ((coords[3] - coords[1]) / height * 100) + '%';
+                picker.alphabetLetter = letter;
+                picker.desktopStyle = picker.style.cssText;
                 (function (source, control) {
                     control.addEventListener('change', function () {
                         source.value = control.value;
