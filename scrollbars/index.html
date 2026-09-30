@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IE Scrollbars example</title>
+<style>
+  .pane { width: 280px; max-width: 90vw; height: 150px; overflow: auto; border: 1px solid #888; padding: 8px; }
+  .pink { scrollbar-face-color: #ffb6d9; scrollbar-arrow-color: #800040; scrollbar-highlight-color: #fff; scrollbar-shadow-color: #ba5e86; scrollbar-darkshadow-color: #800040; }
+  .custom { --ie-scrollbar-size: 24px; --ie-scrollbar-glyph-start-shape: dot; --ie-scrollbar-glyph-end-shape: square; }
+  :focus-visible { outline: 2px solid blue; outline-offset: 2px; }
+</style>
+<script src="ie-scrollbar.js" defer></script>
+<h1>IE Scrollbars</h1>
+<p><a href="https://github.com/dancing-about-architecture/IE-Scrollbars/blob/main/README.md">Readme</a> | <a href="https://github.com/dancing-about-architecture/IE-Scrollbars/blob/main/CSS.md">CSS reference</a> | <a href="options.html">All examples</a></p>
+<h2>Default</h2>
+<div class="pane" tabindex="0" role="region" aria-label="Default scrollbars">
+  <p>Scroll with the wheel, keyboard, arrows, or thumb.</p>
+  <p>This is an ordinary div with <code>overflow: auto</code>.</p>
+  <p>The script finds it automatically.</p>
+  <p>More content.</p><p>And a little more.</p><p>The bottom.</p>
+</div>
+<h2>Old IE colours</h2>
+<div class="pane pink" tabindex="0" role="region" aria-label="Pink scrollbars">
+  <p>These use the original IE CSS properties.</p>
+  <pre>scrollbar-face-color: #ffb6d9;
+scrollbar-arrow-color: #800040;</pre>
+  <p>The old declarations work again.</p><p>More content.</p><p>The bottom.</p>
+</div>
+<h2>New options</h2>
+<div class="pane custom" tabindex="0" role="region" aria-label="Custom glyphs">
+  <p>Bigger buttons with different glyphs.</p>
+  <pre>--ie-scrollbar-size: 24px;
+--ie-scrollbar-glyph-start-shape: dot;
+--ie-scrollbar-glyph-end-shape: square;</pre>
+  <p>More content.</p><p>The bottom.</p>
+</div>
+</html>

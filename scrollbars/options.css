@@ -1,0 +1,14 @@
+body { margin: 16px; color: black; background: white; }
+.sample { width: 560px; max-width: calc(100vw - 32px); margin: 32px 0; padding: 8px; box-sizing: border-box; border-bottom: 1px solid #ccc; }
+.sample h3 { margin: 0 0 12px; font: 12px monospace; overflow-wrap: anywhere; }
+.pair { display: flex; gap: 24px; align-items: flex-start; }
+.variant { width: 160px; min-width: 0; }
+.label { margin: 0 0 6px; font: 12px Arial, sans-serif; }
+.pane { box-sizing: border-box; width: 160px; height: 148px; padding: 8px; border: 1px solid #888; overflow: auto; --ie-scrollbar-size: 32px; font: 12px/1.5 Arial, sans-serif; }
+.content { width: 180px; height: 1200px; }
+.content p { margin: 0 0 20px; }
+.context { font: 11px/1.5 Arial, sans-serif; margin: 12px 0 0; }
+details { margin-top: 12px; font-size: 12px; }
+pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+:focus-visible { outline: 2px solid blue; outline-offset: 2px; }
+@media (max-width: 400px) { .pair { gap: 12px; } .variant, .pane { width: 132px; } }
