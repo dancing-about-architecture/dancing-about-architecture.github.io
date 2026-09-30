@@ -1,0 +1,370 @@
+.ie-scrollbar-host {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.ie-scrollbar-host::-webkit-scrollbar {
+  display: none;
+}
+:root {
+  --ie-face: #C0C0C0;            
+  --ie-3dlight: #C0C0C0;         
+  --ie-highlight: #FFFFFF;       
+  --ie-shadow: #808080;          
+  --ie-darkshadow: #000000;      
+  --ie-arrow: #000000;           
+  --ie-track: #C0C0C0;           
+}
+.ie-scrollbar {
+  --ie-button-face: var(--ie-face);
+  --ie-button-3dlight: var(--ie-3dlight);
+  --ie-button-highlight: var(--ie-highlight);
+  --ie-button-shadow: var(--ie-shadow);
+  --ie-button-darkshadow: var(--ie-darkshadow);
+  --ie-button-arrow: var(--ie-arrow);
+  --ie-face-texture-image: var(--ie-scrollbar-thumb-background-image, none);
+  --ie-face-texture-position: var(--ie-scrollbar-thumb-background-position, 50% 50%);
+  --ie-face-texture-size: var(--ie-scrollbar-thumb-background-size, auto);
+  --ie-face-texture-repeat: var(--ie-scrollbar-thumb-background-repeat, repeat);
+}
+.ie-scrollbar {
+  --ie-track-dither-a: var(--ie-scrollbar-track-dither-a-color, var(--ie-face));
+  --ie-track-dither-b: var(--ie-scrollbar-track-dither-b-color, var(--ie-highlight));
+  --ie-track-cell: 1px;
+  position: absolute;
+  top: calc(var(--ie-scrollbar-border-inset, 0px) * var(--ie-scrollbar-border-inset-corners, 1));
+  right: var(--ie-scrollbar-border-inset, 0px);
+  width: var(--ie-scrollbar-size, 16px);
+  bottom: calc(var(--ie-scrollbar-border-inset, 0px) * var(--ie-scrollbar-border-inset-corners, 1));
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  font-size: 0;
+  z-index: 0;
+  background-color: var(--ie-track-dither-b);
+}
+.ie-scrollbar--track-custom {
+  background-color: var(--ie-track);
+}
+.ie-scrollbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--ie-track-dither-a);
+  -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVR4nGP4////fwYY+P///38AR8oH+fD/YdQAAAAASUVORK5CYII=");
+  mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVR4nGP4////fwYY+P///38AR8oH+fD/YdQAAAAASUVORK5CYII=");
+  -webkit-mask-size: calc(var(--ie-track-cell) * 2) calc(var(--ie-track-cell) * 2);
+  mask-size: calc(var(--ie-track-cell) * 2) calc(var(--ie-track-cell) * 2);
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.ie-scrollbar--track-custom::before {
+  display: none;
+}
+.ie-scrollbar--window {
+  position: fixed;
+}
+.ie-scrollbar--horizontal {
+  top: auto;
+  right: calc(var(--ie-scrollbar-border-inset, 0px) * var(--ie-scrollbar-border-inset-corners, 1));
+  left: calc(var(--ie-scrollbar-border-inset, 0px) * var(--ie-scrollbar-border-inset-corners, 1));
+  bottom: var(--ie-scrollbar-border-inset, 0px);
+  width: auto;
+  height: var(--ie-scrollbar-size, 16px);
+  flex-direction: row;
+}
+.ie-scrollbar--with-corner.ie-scrollbar--horizontal {
+  right: calc(var(--ie-scrollbar-size, 16px) + var(--ie-scrollbar-border-inset, 0px));
+}
+.ie-scrollbar--with-corner:not(.ie-scrollbar--horizontal) {
+  bottom: calc(var(--ie-scrollbar-size, 16px) + var(--ie-scrollbar-border-inset, 0px));
+}
+.ie-scrollbar__corner {
+  position: absolute;
+  right: var(--ie-scrollbar-border-inset, 0px);
+  bottom: var(--ie-scrollbar-border-inset, 0px);
+  width: var(--ie-scrollbar-size, 16px);
+  height: var(--ie-scrollbar-size, 16px);
+  background: var(--ie-face);
+}
+.ie-scrollbar__corner--window {
+  position: fixed;
+}
+.ie-scrollbar__button--up,
+.ie-scrollbar__button--left {
+  --ie-button-face: var(--ie-scrollbar-button-start-face-color, var(--ie-face));
+  --ie-button-3dlight: var(--ie-scrollbar-button-start-3dlight-color, var(--ie-3dlight));
+  --ie-button-highlight: var(--ie-scrollbar-button-start-highlight-color, var(--ie-highlight));
+  --ie-button-shadow: var(--ie-scrollbar-button-start-shadow-color, var(--ie-shadow));
+  --ie-button-darkshadow: var(--ie-scrollbar-button-start-darkshadow-color, var(--ie-darkshadow));
+  --ie-button-arrow: var(--ie-scrollbar-arrow-start-color, var(--ie-arrow));
+  --ie-scrollbar-button-current-size: var(--ie-scrollbar-button-start-size, var(--ie-scrollbar-size, 16px));
+  align-self: var(--ie-scrollbar-button-start-align, flex-end);
+  --ie-glyph-image: var(--ie-scrollbar-glyph-start-image, none);
+  --ie-glyph-shape: var(--ie-scrollbar-glyph-start-shape, triangle);
+  --ie-glyph-size: var(--ie-scrollbar-glyph-start-size, contain);
+  --ie-glyph-offset-x: var(--ie-scrollbar-glyph-start-offset-x, 0px);
+  --ie-glyph-offset-y: var(--ie-scrollbar-glyph-start-offset-y, 0px);
+  --ie-glyph-center-triangle: var(--ie-scrollbar-glyph-start-center-triangle, 0);
+  --ie-face-texture-image: var(--ie-scrollbar-button-start-background-image, none);
+  --ie-face-texture-position: var(--ie-scrollbar-button-start-background-position, 50% 50%);
+  --ie-face-texture-size: var(--ie-scrollbar-button-start-background-size, auto);
+  --ie-face-texture-repeat: var(--ie-scrollbar-button-start-background-repeat, repeat);
+}
+.ie-scrollbar__button--down,
+.ie-scrollbar__button--right {
+  --ie-button-face: var(--ie-scrollbar-button-end-face-color, var(--ie-face));
+  --ie-button-3dlight: var(--ie-scrollbar-button-end-3dlight-color, var(--ie-3dlight));
+  --ie-button-highlight: var(--ie-scrollbar-button-end-highlight-color, var(--ie-highlight));
+  --ie-button-shadow: var(--ie-scrollbar-button-end-shadow-color, var(--ie-shadow));
+  --ie-button-darkshadow: var(--ie-scrollbar-button-end-darkshadow-color, var(--ie-darkshadow));
+  --ie-button-arrow: var(--ie-scrollbar-arrow-end-color, var(--ie-arrow));
+  --ie-scrollbar-button-current-size: var(--ie-scrollbar-button-end-size, var(--ie-scrollbar-size, 16px));
+  align-self: var(--ie-scrollbar-button-end-align, flex-end);
+  --ie-glyph-image: var(--ie-scrollbar-glyph-end-image, none);
+  --ie-glyph-shape: var(--ie-scrollbar-glyph-end-shape, triangle);
+  --ie-glyph-size: var(--ie-scrollbar-glyph-end-size, contain);
+  --ie-glyph-offset-x: var(--ie-scrollbar-glyph-end-offset-x, 0px);
+  --ie-glyph-offset-y: var(--ie-scrollbar-glyph-end-offset-y, 0px);
+  --ie-glyph-center-triangle: var(--ie-scrollbar-glyph-end-center-triangle, 0);
+  --ie-face-texture-image: var(--ie-scrollbar-button-end-background-image, none);
+  --ie-face-texture-position: var(--ie-scrollbar-button-end-background-position, 50% 50%);
+  --ie-face-texture-size: var(--ie-scrollbar-button-end-background-size, auto);
+  --ie-face-texture-repeat: var(--ie-scrollbar-button-end-background-repeat, repeat);
+}
+.ie-scrollbar__button--custom-glyph .ie-scrollbar__arrow {
+  display: none;
+}
+.ie-scrollbar__button--custom-glyph .ie-scrollbar__face {
+  background-image: var(--ie-glyph-image), var(--ie-face-texture-image);
+  background-repeat: no-repeat, var(--ie-face-texture-repeat);
+  background-size: var(--ie-glyph-size), var(--ie-face-texture-size);
+  background-position: calc(50% + var(--ie-glyph-offset-x)) calc(50% + var(--ie-glyph-offset-y)), var(--ie-face-texture-position);
+}
+.ie-scrollbar__button {
+  flex: 0 0 var(--ie-scrollbar-button-current-size, 16px);
+  width: var(--ie-scrollbar-button-current-size, 16px);
+  height: var(--ie-scrollbar-button-current-size, 16px);
+  box-sizing: border-box;
+  cursor: default;
+}
+.ie-scrollbar__bevel-outer,
+.ie-scrollbar__bevel-inner {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-style: solid;
+}
+.ie-scrollbar__bevel-outer {
+  border-top-width: var(--ie-scrollbar-bevel-outer-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-left-width: var(--ie-scrollbar-bevel-outer-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-right-width: var(--ie-scrollbar-bevel-outer-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-bottom-width: var(--ie-scrollbar-bevel-outer-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-top-color: var(--ie-button-3dlight);
+  border-left-color: var(--ie-button-3dlight);
+  border-right-color: var(--ie-button-darkshadow);
+  border-bottom-color: var(--ie-button-darkshadow);
+  --ie-bevel-top: var(--ie-button-3dlight);
+  --ie-bevel-left: var(--ie-button-3dlight);
+  --ie-bevel-right: var(--ie-button-darkshadow);
+  --ie-bevel-bottom: var(--ie-button-darkshadow);
+}
+.ie-scrollbar__bevel-inner {
+  border-top-width: var(--ie-scrollbar-bevel-inner-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-left-width: var(--ie-scrollbar-bevel-inner-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-right-width: var(--ie-scrollbar-bevel-inner-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-bottom-width: var(--ie-scrollbar-bevel-inner-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-top-color: var(--ie-button-highlight);
+  border-left-color: var(--ie-button-highlight);
+  border-right-color: var(--ie-button-shadow);
+  border-bottom-color: var(--ie-button-shadow);
+  --ie-bevel-top: var(--ie-button-highlight);
+  --ie-bevel-left: var(--ie-button-highlight);
+  --ie-bevel-right: var(--ie-button-shadow);
+  --ie-bevel-bottom: var(--ie-button-shadow);
+}
+.ie-scrollbar__button--pressed .ie-scrollbar__bevel-outer {
+  border-top-color: var(--ie-button-darkshadow);
+  border-left-color: var(--ie-button-darkshadow);
+  border-right-color: var(--ie-button-3dlight);
+  border-bottom-color: var(--ie-button-3dlight);
+  --ie-bevel-top: var(--ie-button-darkshadow);
+  --ie-bevel-left: var(--ie-button-darkshadow);
+  --ie-bevel-right: var(--ie-button-3dlight);
+  --ie-bevel-bottom: var(--ie-button-3dlight);
+}
+.ie-scrollbar__button--pressed .ie-scrollbar__bevel-inner {
+  border-top-color: var(--ie-button-shadow);
+  border-left-color: var(--ie-button-shadow);
+  border-right-color: var(--ie-button-highlight);
+  border-bottom-color: var(--ie-button-highlight);
+  --ie-bevel-top: var(--ie-button-shadow);
+  --ie-bevel-left: var(--ie-button-shadow);
+  --ie-bevel-right: var(--ie-button-highlight);
+  --ie-bevel-bottom: var(--ie-button-highlight);
+}
+.ie-scrollbar__button--pressed .ie-scrollbar__arrow {
+  transform: translate(calc(var(--ie-glyph-offset-x, 0px) + 1px), calc(var(--ie-glyph-offset-y, 0px) + 1px));
+}
+.ie-scrollbar__button--pressed.ie-scrollbar__button--no-pressed-invert .ie-scrollbar__bevel-outer {
+  border-top-color: var(--ie-button-3dlight);
+  border-left-color: var(--ie-button-3dlight);
+  border-right-color: var(--ie-button-darkshadow);
+  border-bottom-color: var(--ie-button-darkshadow);
+  --ie-bevel-top: var(--ie-button-3dlight);
+  --ie-bevel-left: var(--ie-button-3dlight);
+  --ie-bevel-right: var(--ie-button-darkshadow);
+  --ie-bevel-bottom: var(--ie-button-darkshadow);
+}
+.ie-scrollbar__button--pressed.ie-scrollbar__button--no-pressed-invert .ie-scrollbar__bevel-inner {
+  border-top-color: var(--ie-button-highlight);
+  border-left-color: var(--ie-button-highlight);
+  border-right-color: var(--ie-button-shadow);
+  border-bottom-color: var(--ie-button-shadow);
+  --ie-bevel-top: var(--ie-button-highlight);
+  --ie-bevel-left: var(--ie-button-highlight);
+  --ie-bevel-right: var(--ie-button-shadow);
+  --ie-bevel-bottom: var(--ie-button-shadow);
+}
+.ie-scrollbar__button--pressed.ie-scrollbar__button--no-pressed-invert .ie-scrollbar__arrow {
+  transform: translate(var(--ie-glyph-offset-x, 0px), var(--ie-glyph-offset-y, 0px));
+}
+.ie-scrollbar__thumb--pressed .ie-scrollbar__bevel-outer {
+  border-top-color: var(--ie-button-darkshadow);
+  border-left-color: var(--ie-button-darkshadow);
+  border-right-color: var(--ie-button-3dlight);
+  border-bottom-color: var(--ie-button-3dlight);
+  --ie-bevel-top: var(--ie-button-darkshadow);
+  --ie-bevel-left: var(--ie-button-darkshadow);
+  --ie-bevel-right: var(--ie-button-3dlight);
+  --ie-bevel-bottom: var(--ie-button-3dlight);
+}
+.ie-scrollbar__thumb--pressed .ie-scrollbar__bevel-inner {
+  border-top-color: var(--ie-button-shadow);
+  border-left-color: var(--ie-button-shadow);
+  border-right-color: var(--ie-button-highlight);
+  border-bottom-color: var(--ie-button-highlight);
+  --ie-bevel-top: var(--ie-button-shadow);
+  --ie-bevel-left: var(--ie-button-shadow);
+  --ie-bevel-right: var(--ie-button-highlight);
+  --ie-bevel-bottom: var(--ie-button-highlight);
+}
+.ie-scrollbar--blocky .ie-scrollbar__bevel-outer {
+  --ie-bevel-light-w: var(--ie-scrollbar-bevel-outer-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  --ie-bevel-dark-w: var(--ie-scrollbar-bevel-outer-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  padding-top: var(--ie-bevel-light-w);
+  padding-left: var(--ie-bevel-light-w);
+  padding-right: var(--ie-bevel-dark-w);
+  padding-bottom: var(--ie-bevel-dark-w);
+  box-shadow:
+    inset 0 calc(var(--ie-bevel-dark-w) * -1) 0 0 var(--ie-bevel-bottom),
+    inset calc(var(--ie-bevel-dark-w) * -1) 0 0 0 var(--ie-bevel-right),
+    inset var(--ie-bevel-light-w) 0 0 0 var(--ie-bevel-left),
+    inset 0 var(--ie-bevel-light-w) 0 0 var(--ie-bevel-top);
+}
+.ie-scrollbar--blocky .ie-scrollbar__bevel-inner {
+  --ie-bevel-light-w: var(--ie-scrollbar-bevel-inner-light-width, var(--ie-scrollbar-bevel-width, 1px));
+  --ie-bevel-dark-w: var(--ie-scrollbar-bevel-inner-dark-width, var(--ie-scrollbar-bevel-width, 1px));
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  padding-top: var(--ie-bevel-light-w);
+  padding-left: var(--ie-bevel-light-w);
+  padding-right: var(--ie-bevel-dark-w);
+  padding-bottom: var(--ie-bevel-dark-w);
+  box-shadow:
+    inset 0 calc(var(--ie-bevel-dark-w) * -1) 0 0 var(--ie-bevel-bottom),
+    inset calc(var(--ie-bevel-dark-w) * -1) 0 0 0 var(--ie-bevel-right),
+    inset var(--ie-bevel-light-w) 0 0 0 var(--ie-bevel-left),
+    inset 0 var(--ie-bevel-light-w) 0 0 var(--ie-bevel-top);
+}
+.ie-scrollbar__face {
+  width: 100%;
+  height: 100%;
+  background-color: var(--ie-button-face);
+  background-image: var(--ie-face-texture-image);
+  background-position: var(--ie-face-texture-position);
+  background-size: var(--ie-face-texture-size);
+  background-repeat: var(--ie-face-texture-repeat);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ie-scrollbar__arrow {
+  display: block;
+  width: 7px;
+  height: 4px;
+  margin-left: 2.499px;
+  transform: translate(var(--ie-glyph-offset-x, 0px), var(--ie-glyph-offset-y, 0px));
+}
+.ie-scrollbar__arrow--left,
+.ie-scrollbar__arrow--right {
+  width: 4px;
+  height: 7px;
+  margin-left: 4px;
+  margin-top: 0;
+}
+.ie-scrollbar__track {
+  position: relative;
+  flex: 1 1 auto;
+  overflow: hidden;
+  background-color: var(--ie-track-dither-b);
+}
+.ie-scrollbar__track::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--ie-track-dither-a);
+  -webkit-mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVR4nGP4////fwYY+P///38AR8oH+fD/YdQAAAAASUVORK5CYII=");
+  mask-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAFElEQVR4nGP4////fwYY+P///38AR8oH+fD/YdQAAAAASUVORK5CYII=");
+  -webkit-mask-size: calc(var(--ie-track-cell) * 2) calc(var(--ie-track-cell) * 2);
+  mask-size: calc(var(--ie-track-cell) * 2) calc(var(--ie-track-cell) * 2);
+  -webkit-mask-repeat: repeat;
+  mask-repeat: repeat;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+.ie-scrollbar--track-custom .ie-scrollbar__track {
+  background-color: var(--ie-track);
+}
+.ie-scrollbar--track-custom .ie-scrollbar__track::before {
+  display: none;
+}
+.ie-scrollbar--track-textured .ie-scrollbar__track {
+  background-image: var(--ie-scrollbar-track-background-image, none);
+  background-position: var(--ie-scrollbar-track-background-position, 50% 50%);
+  background-size: var(--ie-scrollbar-track-background-size, auto);
+  background-repeat: var(--ie-scrollbar-track-background-repeat, repeat);
+}
+.ie-scrollbar--track-textured .ie-scrollbar__track::before {
+  display: none;
+}
+.ie-scrollbar__thumb {
+  position: absolute;
+  left: 0;
+  width: var(--ie-scrollbar-size, 16px);
+  min-height: var(--ie-scrollbar-min-thumb-size, 32px);
+  box-sizing: border-box;
+  cursor: default;
+}
+.ie-scrollbar--horizontal .ie-scrollbar__thumb {
+  left: auto;
+  top: 0;
+  width: auto;
+  height: var(--ie-scrollbar-size, 16px);
+  min-width: var(--ie-scrollbar-min-thumb-size, 32px);
+  min-height: 0;
+}
+.ie-scrollbar--small-track-half .ie-scrollbar__thumb {
+  min-height: 0;
+  min-width: 0;
+}

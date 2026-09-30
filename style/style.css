@@ -78,9 +78,13 @@ div p font img {
 
 /* Retro cursors site-wide: 1x base with 1.5x/2x swaps for high-DPI screens.
    Hotspots: arrow tip, fingertip top, I-beam middle.
-   I-beam only on text fields and font (inline), so whitespace keeps the arrow. */
+   I-beam only on text fields and font (inline), so whitespace keeps the arrow.
+   Arrow forced on .ie-scrollbar chrome: its own CSS sets native cursors. */
 html,
-body {
+body,
+body .ie-scrollbar,
+body .ie-scrollbar *,
+body .ie-scrollbar__corner {
   cursor: url("cursors/default-100.png") 0 0, default;
 }
 
@@ -118,7 +122,10 @@ font {
 
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
   html,
-  body {
+  body,
+  body .ie-scrollbar,
+  body .ie-scrollbar *,
+  body .ie-scrollbar__corner {
     cursor: url("cursors/default-150.png") 0 0, default;
   }
 
@@ -157,7 +164,10 @@ font {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   html,
-  body {
+  body,
+  body .ie-scrollbar,
+  body .ie-scrollbar *,
+  body .ie-scrollbar__corner {
     cursor: url("cursors/default-200.png") 0 0, default;
   }
 
@@ -192,4 +202,9 @@ font {
   font {
     cursor: url("cursors/beam-200.png") 10 22, text;
   }
+}
+
+a[href="start.html"],
+a[href="../pages/start.html"] {
+  color: #999999;
 }
