@@ -1,3 +1,10 @@
+/* Stretch the root to the full viewport so custom cursors persist below
+   short content. Kept on html alone: a body min-height adds a scrollbar
+   in Firefox because of the default body margins. */
+html {
+  min-height: 100%;
+}
+
 body {
   font-family: "Times", "Times New Roman", serif;
   font-smooth: never;
@@ -325,11 +332,16 @@ div#zlist {
     height: auto;
   }
 
+  /* Desktop alphabet keeps its 500px width until the viewport itself is
+     too narrow, even inside narrowed columns (e.g. wtf's blockquotes). */
   .mobile-alphabet img {
-    width: 500px;
-    max-width: 100%;
-    height: auto;
-    aspect-ratio: 2880.9003 / 1410.0649;
+    max-width: min(500px, calc(100vw - 24px));
+  }
+
+  /* Center alphabet art that overflows a narrowed column. */
+  p:has(> picture.mobile-alphabet) {
+    display: flex;
+    justify-content: center;
   }
 
   /* GoLive's fixed-width tables and spacer rows otherwise widen the page. */
@@ -359,6 +371,35 @@ div#zlist {
     white-space: pre-wrap;
     overflow-wrap: anywhere;
   }
+}
+
+/* The 500px alphabet artwork swaps to the four-row version only once the
+   viewport is actually too narrow to fit it (500px plus page margins). */
+@media (width < 530px) {
+  /* Fixed 135px tall until the viewport closes to within 30px of either
+     side, then shrinks fluidly to preserve that clearance. Capped against
+     the viewport (not the column) so nested blockquotes can't shrink it
+     early; centering comes from the flex rule in the 800px block. */
+  .mobile-alphabet img {
+    width: auto;
+    max-width: calc(100vw - 60px);
+    height: min(135px, calc((100vw - 60px) * 1410.0649 / 2880.9003));
+    aspect-ratio: 2880.9003 / 1410.0649;
+  }
+
+  /* Touch screens have no hover state, so show the rollover artwork by
+     default. This also wins over the GoLive mouseover/mouseout swaps. */
+  img[name="dollar"] {
+    content: url("../site%20grfx/dollar%20words.png");
+  }
+
+  img[name="speaker"] {
+    content: url("../site%20grfx/speaker%20words.png");
+  }
+
+  img[name^="ipod_off"] {
+    content: url("../site%20grfx/ipod%20on.png");
+  }
 
   /* Pickers sit directly over the four-row artwork on small screens. */
   div:is(#alist, #blist, #clist, #dlist, #elist, #flist, #glist,
@@ -370,6 +411,39 @@ div#zlist {
 
   .alphabet-touch-pickers > select {
     min-width: 0;
+  }
+}
+
+/* Below 565px the 500px icon row no longer fits, so the dollar and
+   speaker icons each wrap onto their own centered lines under the album. */
+@media (width < 565px) {
+  p:has(> a > img[name="dollar"]) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 4px;
+  }
+
+  p:has(> a > img[name="dollar"]) > a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+  }
+
+  p:has(> a > img[name="dollar"]) > a:has(> img[src*="album%20covers"]) {
+    order: 1;
+  }
+
+  p:has(> a > img[name="dollar"]) > a:has(> img[name="speaker"]) {
+    order: 2;
+    flex-basis: 100%;
+  }
+
+  p:has(> a > img[name="dollar"]) > a:has(> img[name="dollar"]) {
+    order: 3;
+    flex-basis: 100%;
   }
 }
 /* END MOBILE =============================================================== */

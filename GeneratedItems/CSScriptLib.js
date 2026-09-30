@@ -2108,7 +2108,7 @@ function SetCookie (cookiename, value) {
         if (!window.matchMedia || !document.querySelectorAll) return;
         var touch = window.matchMedia('(pointer: coarse)');
         // MOBILE: the alternate artwork has two seven-letter and two six-letter rows.
-        var mobile = window.matchMedia('(width < 800px)');
+        var mobile = window.matchMedia('(width < 530px)');
         var images = document.querySelectorAll('img[usemap]');
         var overlays = [];
 
