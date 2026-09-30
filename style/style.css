@@ -2,6 +2,16 @@ body {
     font-family: "Times", "Times New Roman", Serif;
     font-smooth: never;
     -webkit-font-smoothing : none;
+    cursor: url("cursors/default-cursor.png"), default;
+}
+
+a, a font, select, button {
+  cursor: url("cursors/click-cursor.png"), pointer;
+}
+
+input[type="text"], input[type="search"], input:not([type]), textarea,
+font {
+  cursor: url("cursors/beam-cursor.png"), text;
 }
 
 select {
@@ -64,4 +74,122 @@ div p font img {
   border-width: 1px;
   border-style: solid;
   border-color: black;
+}
+
+/* Retro cursors site-wide: 1x base with 1.5x/2x swaps for high-DPI screens.
+   Hotspots: arrow tip, fingertip top, I-beam middle.
+   I-beam only on text fields and font (inline), so whitespace keeps the arrow. */
+html,
+body {
+  cursor: url("cursors/default-100.png") 0 0, default;
+}
+
+a,
+a font,
+button,
+select,
+summary,
+label,
+area[href],
+[role="button"],
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="color"],
+input[type="range"] {
+  cursor: url("cursors/click-100.png") 6 0, pointer;
+}
+
+input[type="text"],
+input[type="search"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+input:not([type]),
+textarea,
+[contenteditable="true"],
+font {
+  cursor: url("cursors/beam-100.png") 5 11, text;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  html,
+  body {
+    cursor: url("cursors/default-150.png") 0 0, default;
+  }
+
+  a,
+  a font,
+  button,
+  select,
+  summary,
+  label,
+  area[href],
+  [role="button"],
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="color"],
+  input[type="range"] {
+    cursor: url("cursors/click-150.png") 9 0, pointer;
+  }
+
+  input[type="text"],
+  input[type="search"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input:not([type]),
+  textarea,
+  [contenteditable="true"],
+  font {
+    cursor: url("cursors/beam-150.png") 8 16, text;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  html,
+  body {
+    cursor: url("cursors/default-200.png") 0 0, default;
+  }
+
+  a,
+  a font,
+  button,
+  select,
+  summary,
+  label,
+  area[href],
+  [role="button"],
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"],
+  input[type="checkbox"],
+  input[type="radio"],
+  input[type="color"],
+  input[type="range"] {
+    cursor: url("cursors/click-200.png") 12 0, pointer;
+  }
+
+  input[type="text"],
+  input[type="search"],
+  input[type="password"],
+  input[type="email"],
+  input[type="url"],
+  input[type="tel"],
+  input[type="number"],
+  input:not([type]),
+  textarea,
+  [contenteditable="true"],
+  font {
+    cursor: url("cursors/beam-200.png") 10 22, text;
+  }
 }
