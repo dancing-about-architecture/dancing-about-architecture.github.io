@@ -42,6 +42,7 @@ Wish List
     - [ ] Make CSS work well on mobile — no page (0 of 329) has a `<meta name="viewport">` tag; this is likely the single highest-leverage fix here
     - [ ] Check Resolution of everything to make sure it works 2x
     - [ ] Build custom scrollbars?
+    - [ ] Add custom cursor icons? 
     - [ ] Do cool good typography for apostrophes and quotation marks
     - [ ] Add favicon — confirmed 0 of 329 pages reference one
     - [ ] d a n c i n g xxa b o u t xxa r c h i t e c t u r e ... as much as I love this -> properly implement it everywhere

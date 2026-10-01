@@ -8,7 +8,7 @@ It is many things. A deeply personal love letter to the power of music. An autob
 
 It is also for me a reminder of an earlier era of the internet. Back when sites were made by hobbyists. Made by hand, a little crude but full of love.
 
-Over time, the internet has been terraformed by large companies and social media and there have been amazing things that have come with progress but it has also made it hard for sites like *Dancing About Architecture* to survive. Many of those independent, passionate, personal websites have slowly gone offline. They've been replaced with Russian spam gambling sites or domain purchasing site.
+Over time, the internet has been terraformed by large companies and social media and there have been amazing things that have come with progress but it has also made it hard for sites like *Dancing About Architecture* to survive. Many of those independent, passionate, personal websites have slowly gone offline. They've been replaced with Russian spam gambling sites or domain purchasing sites.
 
 *Dancing About Architecture* was one of those sites. Its original home was **hypercubism.com**. You can still [visit pieces of it in the Internet Archive](https://web.archive.org/web/*/http://www.hypercubism.com/), but the archive did not capture everything.
 
