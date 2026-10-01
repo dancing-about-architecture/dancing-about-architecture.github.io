@@ -1,0 +1,129 @@
+/* Win95 combo boxes: Chicago95-inspired geometry, set in DAABitmap (traced
+   from style/fonts/bitmap/bitmap-100.sfd) with W95FA as the fallback for
+   glyphs the bitmap does not draw. Loaded with select.js; the original
+   selects remain the navigation data. */
+.w95-select,
+.w95-select-menu {
+  box-sizing: border-box;
+  color: #000;
+  background: #fff;
+  font: 400 12.5px/17px "DAABitmap", "W95FA", sans-serif;
+  text-align: left;
+  border-radius: 0;
+  /* Pixel grid: never smooth or synthesize (faux bold/italic would blur). */
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-synthesis: none;
+}
+.w95-select {
+  display: inline-flex;
+  align-items: center;
+  width: 185px;
+  height: 24px;
+  margin: 0;
+  padding: 2px;
+  border: 1px solid;
+  border-color: #808080 #fff #fff #808080;
+  box-shadow: inset 1px 1px #000, inset -1px -1px #c0c0c0;
+  vertical-align: top;
+}
+.w95-select-label {
+  flex: 1;
+  min-width: 0;
+  padding: 0 2px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.w95-select:focus-visible { outline: none; }
+.w95-select:focus-visible .w95-select-label {
+  background: #000080;
+  color: #fff;
+  outline: 1px dotted #fff;
+  outline-offset: -1px;
+}
+.w95-select-arrow {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  flex: 0 0 17px;
+  height: 18px;
+  background: #c0c0c0;
+  border: 1px solid;
+  border-color: #fff #000 #000 #fff;
+  box-shadow: inset -1px -1px #808080, inset 1px 1px #c0c0c0;
+}
+.w95-select-arrow::after {
+  content: "";
+  width: 7px;
+  height: 4px;
+  background: #000;
+  clip-path: polygon(0 0, 100% 0, 100% 25%, 86% 25%, 86% 50%, 71% 50%, 71% 75%, 57% 75%, 57% 100%, 43% 100%, 43% 75%, 29% 75%, 29% 50%, 14% 50%, 14% 25%, 0 25%);
+}
+.w95-select[aria-expanded="true"] .w95-select-arrow,
+.w95-select:active .w95-select-arrow {
+  border-color: #000 #fff #fff #000;
+  box-shadow: inset -1px -1px #c0c0c0, inset 1px 1px #808080;
+  padding: 1px 0 0 1px;
+}
+form.w95-select-form::after { content: none; }
+.w95-select-source { display: none !important; }
+.w95-select-popup {
+  position: fixed;
+  z-index: 10001;
+}
+.w95-select-menu {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 1px;
+  border: 1px solid #000;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 #fff;
+}
+.w95-select-option {
+  display: flex;
+  align-items: center;
+  min-height: 17px;
+  padding: 0 3px;
+  white-space: nowrap;
+  cursor: url("cursors/default-100.png") 0 0, default;
+}
+.w95-select-option[aria-selected="true"] {
+  background: #000080;
+  color: #fff;
+}
+.w95-select-option[aria-disabled="true"] { color: #808080; }
+/* Bitmap labels: nearest-neighbour keeps hard pixels under fractional
+   offsets and scaling (translation rounds instead of blending). */
+.w95-bitmap {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  vertical-align: baseline;
+}
+/* Real text for screen readers, find-in-page, and copy/paste. */
+.w95-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.alphabet-touch-pickers > .w95-select-touch {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: transparent;
+  pointer-events: auto;
+}
+.w95-select-touch:focus-visible { outline: 1px dotted #000; outline-offset: -2px; }

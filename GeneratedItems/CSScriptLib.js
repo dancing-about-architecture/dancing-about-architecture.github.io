@@ -2201,6 +2201,7 @@ function SetCookie (cookiename, value) {
             for (var n = 0; n < overlays.length; n++) observer.observe(overlays[n].image);
         }
         if (document.fonts && document.fonts.ready) document.fonts.ready.then(positionPickers);
+        document.dispatchEvent(new Event('alphabetpickersready'));
     }
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAlphabetPickers);
     else initAlphabetPickers();
@@ -2212,5 +2213,23 @@ function SetCookie (cookiename, value) {
     if (!source) return;
     var script = document.createElement('script');
     script.src = new URL('../style/artist-scrollbars.js', source.src).href;
+    document.head.appendChild(script);
+})();
+
+// Shared Win95 alphabox controls; keep the implementation under style/.
+(function () {
+    var source = document.currentScript;
+    if (!source) return;
+    var stylesheet = document.createElement('link');
+    stylesheet.rel = 'stylesheet';
+    stylesheet.href = new URL('../style/select.css', source.src).href;
+    document.head.appendChild(stylesheet);
+    var bitmaps = document.createElement('script');
+    bitmaps.async = false;
+    bitmaps.src = new URL('../style/bitmap-glyphs.js', source.src).href;
+    document.head.appendChild(bitmaps);
+    var script = document.createElement('script');
+    script.async = false;
+    script.src = new URL('../style/select.js', source.src).href;
     document.head.appendChild(script);
 })();

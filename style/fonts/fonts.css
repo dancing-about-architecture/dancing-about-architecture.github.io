@@ -7,6 +7,20 @@
     font-display: swap;
 }
 
+/* DAABitmap: exact 80-unit pixel squares traced from bitmap/bitmap-100.sfd
+   (see bitmap/build-bitmap-font.py), so 1 grid pixel is 1px at 12.5px.
+   unicode-range covers only drawn glyphs; anything else falls through to
+   W95FA via the font stack, so new text never renders as boxes. */
+@font-face {
+    font-family: "DAABitmap";
+    src: url("daa-bitmap.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0020, U+002B, U+002D-002E, U+0030-0032, U+0039,
+        U+0041-005A, U+0061-007A, U+00A0, U+00F4;
+}
+
 @font-face {
     font-family: "Times";
     src: url("times-regular.woff") format("woff");

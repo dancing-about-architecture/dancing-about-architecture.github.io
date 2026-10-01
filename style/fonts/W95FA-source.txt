@@ -1,9 +1,0 @@
-W95FA by Alina Sava / FontsArena.com
-Source: https://fontsarena.com/w95fa-by-alina-sava/
-Downloaded from: https://fontsarena.com/wp-content/uploads/2020/01/W95FA.zip
-License: SIL Open Font License 1.1 (see W95FA-OFL.txt)
-
-The original WOFF is included without modification.
-Use 12.5px for approximately one CSS pixel per original bitmap grid cell,
-or integer multiples of that size. The font uses 1000 units per em with
-approximately 80-unit grid cells.
