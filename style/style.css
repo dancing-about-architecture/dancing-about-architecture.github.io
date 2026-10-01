@@ -410,6 +410,14 @@ div#zlist {
     content: url("../site%20grfx/ipod%20small-screen.png");
   }
 
+  /* Keep the desktop rollover: hover shows the "on" artwork. Touch
+     devices keep the small-screen art since :hover never matches there. */
+  @media (hover: hover) {
+    a:hover > img[name^="ipod_off"] {
+      content: url("../site%20grfx/ipod%20on.png");
+    }
+  }
+
   /* Pickers sit directly over the four-row artwork on small screens. */
   div:is(#alist, #blist, #clist, #dlist, #elist, #flist, #glist,
          #hlist, #ilist, #jlist, #klist, #llist, #mlist, #nlist,
@@ -517,5 +525,13 @@ table:is([width="699"], [width="698"]) img[src*="album%20covers"],
 
   .podcast-mobile-listen img {
     content: url("../site%20grfx/ipod%20small-screen.png");
+  }
+
+  /* Keep the desktop rollover: hover shows the "on" artwork. Touch
+     devices keep the small-screen art since :hover never matches there. */
+  @media (hover: hover) {
+    .podcast-mobile-listen:hover img {
+      content: url("../site%20grfx/ipod%20on.png");
+    }
   }
 }
