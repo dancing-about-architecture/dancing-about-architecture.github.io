@@ -1,19 +1,73 @@
 /* Progressive enhancement for the GoLive alphabox. Preserve its selects and
    dispatch real change events so navigation and artist-scrollbars still work.
    Visual reference: https://github.com/grassmunk/Chicago95
-   Labels render as hard bitmap pixels on canvas (see bitmap-glyphs.js);
-   the real text stays alongside in .w95-sr-only spans so screen readers,
-   find-in-page, and copy/paste keep working. One shared popup, with
-   keyboard and touch support. */
+   Labels render as hard bitmap pixels on canvas from the 100/150/200
+   hand-drawn strikes (see bitmap-glyphs.js), swapped by scaling like the
+   cursors; the boxes likewise hold their size under browser zoom and
+   step through whole-number multiples of the available strikes. Real text
+   stays alongside in
+   .w95-sr-only spans so screen readers, find-in-page, and copy/paste
+   keep working. One shared popup, with keyboard and touch support. */
 (function () {
   'use strict';
-  var active, popup, menu, rows = [], index = 0, sequence = 0, search = '', searchTimer;
+  var active, popup, menu, rows = [], pairs = [], index = 0, sequence = 0, search = '', searchTimer;
   // Button content width minus arrow and label padding: 185 - 2*2 - 2*1 - 17 - 2*2.
+  // Kept in 100-strike pixels; paintCanvas converts it to the active strike.
   var LABEL_WIDTH = 158;
+  var bitmapMessages = new Map();
+
+  /* DPR includes desktop page zoom and display scaling. visualViewport.scale
+     only measures pinch zoom, so it cannot detect Ctrl+/browser-menu zoom.
+     Match the available strikes to physical pixels, even on first load at a
+     non-default zoom. Pinch zoom remains a native magnification gesture. */
+  function currentScale() {
+    var dpr = window.devicePixelRatio;
+    if (!(dpr > 0) || !isFinite(dpr)) dpr = 1;
+    // Every whole-number multiple of a drawn strike is safe: 100, 150,
+    // 200, 300, 400, 450, etc. Hold the previous size between those steps.
+    var q = Math.max(1, Math.floor(dpr + 0.000001),
+      1.5 * Math.floor((dpr + 0.000001) / 1.5));
+    var strike = q % 2 === 0 ? '200' : q % 1.5 === 0 ? '150' : '100';
+    return { q: q, e: q / dpr, s: strike, d: dpr };
+  }
+
+  var zoomState = currentScale();
+
+  function elementZoom() {
+    return zoomState.e === 1 ? '' : String(zoomState.e);
+  }
+
+  function applyElementZoom() {
+    var z = elementZoom();
+    pairs.forEach(function (pair) { pair.button.style.zoom = z; });
+    if (popup) popup.style.zoom = z;
+    bitmapMessages.forEach(function (text, parent) { parent.style.zoom = z; });
+  }
+
+  /* Zoom or density changed: re-counter the boxes; only a size-band or
+     strike change needs re-layout and repaint (within a band the canvas
+     backing is untouched — same strike, same local units). */
+  function recheckScaling() {
+    var next = currentScale(), prev = zoomState;
+    if (next.q === prev.q && next.s === prev.s && next.e === prev.e) return;
+    zoomState = next;
+    applyElementZoom();
+    if (next.q !== prev.q || next.s !== prev.s) {
+      repaintAll();
+    }
+    position();
+    schedulePixelAlignment();
+  }
+
+  function strikeData() {
+    if (typeof window === 'undefined' || !window.DAA_BITMAP_GLYPHS) return null;
+    var all = window.DAA_BITMAP_GLYPHS;
+    return all[zoomState.s] || all['100'] || null;
+  }
 
   function bitmapGlyphs() {
-    if (typeof window === 'undefined' || !window.DAA_BITMAP_GLYPHS) return null;
-    return window.DAA_BITMAP_GLYPHS.glyphs || null;
+    var data = strikeData();
+    return data ? data.glyphs || null : null;
   }
 
   function canBitmap(text) {
@@ -32,19 +86,27 @@
   }
 
   function paintCanvas(canvas, text, fg, bg, maxWidth) {
-    var data = window.DAA_BITMAP_GLYPHS, glyphs = data.glyphs;
+    var data = strikeData(), glyphs = data.glyphs;
+    var scale = data.scale / 100;
     var height = data.ascent + data.descent;
-    if (maxWidth && textWidth(text, glyphs) > maxWidth) {
-      while (text.length > 1 && textWidth(text + '...', glyphs) > maxWidth) {
+    var limit = maxWidth * scale;
+    if (maxWidth && textWidth(text, glyphs) > limit) {
+      while (text.length > 1 && textWidth(text + '...', glyphs) > limit) {
         text = text.slice(0, -1);
       }
       text = text + '...';
     }
-    canvas.width = Math.max(1, textWidth(text, glyphs));
-    canvas.height = height;
+    // A background-only guard pixel keeps the image boundary's coverage
+    // antialiasing away from glyphs when CSS layout rounds fractional sizes.
+    canvas.width = Math.max(1, textWidth(text, glyphs)) + 2;
+    canvas.height = height + 2;
+    // Backing store is strike pixels; the CSS box stays at 100 size.
+    canvas.style.width = (canvas.width / scale) + 'px';
+    canvas.style.height = (canvas.height / scale) + 'px';
+    canvas.style.margin = (-1 / scale) + 'px';
     var ctx = canvas.getContext('2d');
     ctx.fillStyle = bg;
-    ctx.fillRect(0, 0, canvas.width, height);
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = fg;
     var x = 0, i, row, b;
     for (i = 0; i < text.length; i++) {
@@ -54,7 +116,7 @@
           var value = parseInt(g.r[row], 16), bits = g.r[row].length * 4;
           var y = data.ascent - 1 - (g.y + g.h - 1 - row);
           for (b = 0; b < g.w; b++) {
-            if ((value >> (bits - 1 - b)) & 1) ctx.fillRect(x + g.x + b, y, 1, 1);
+            if ((value >> (bits - 1 - b)) & 1) ctx.fillRect(x + g.x + b + 1, y + 1, 1, 1);
           }
         }
       }
@@ -77,6 +139,34 @@
     parent.appendChild(canvas);
     parent.appendChild(hidden);
     paintCanvas(canvas, text, fg, bg, maxWidth);
+    schedulePixelAlignment();
+  }
+
+  // Flex centering and fractional anchors can place otherwise 1:1 bitmaps
+  // between screen pixels. Correct layout rounding as well as their origins.
+  // A small bias into the target pixel avoids floating-point underflow in
+  // the compositor; the background guard keeps edge coverage off the glyphs.
+  var alignmentFrame = 0;
+  function schedulePixelAlignment() {
+    if (alignmentFrame) return;
+    alignmentFrame = requestAnimationFrame(function () {
+      alignmentFrame = 0;
+      var canvases = Array.from(document.querySelectorAll('.w95-bitmap'));
+      canvases.forEach(function (canvas) { canvas.style.transform = ''; });
+      var offsets = canvases.map(function (canvas) {
+        var rect = canvas.getBoundingClientRect(), d = zoomState.d;
+        var strike = strikeData();
+        var multiple = strike ? zoomState.q / (strike.scale / 100) : 1;
+        return [((Math.round(rect.left * d) + 0.125) / d - rect.left) / zoomState.e,
+          ((Math.round(rect.top * d) + 0.125) / d - rect.top) / zoomState.e,
+          rect.width ? canvas.width * multiple / d / rect.width : 1,
+          rect.height ? canvas.height * multiple / d / rect.height : 1];
+      });
+      canvases.forEach(function (canvas, i) {
+        canvas.style.transform = 'translate(' + offsets[i][0] + 'px,' + offsets[i][1] +
+          'px) scale(' + offsets[i][2] + ',' + offsets[i][3] + ')';
+      });
+    });
   }
 
   function opaqueBg(color) {
@@ -96,6 +186,27 @@
     var style = getComputedStyle(row);
     renderText(row, row.w95Text, style.color, opaqueBg(style.backgroundColor), 0);
   }
+
+  /* The active strike or its integer multiplier changed: repaint labels. */
+  function repaintAll() {
+    pairs.forEach(function (pair) { paintLabel(pair.button, pair.source); });
+    if (active) rows.forEach(paintRow);
+    bitmapMessages.forEach(paintMessage);
+  }
+
+  // Small site popups share the exact same strikes and zoom handling.
+  function paintMessage(text, parent) {
+    parent.style.zoom = elementZoom();
+    var style = getComputedStyle(parent);
+    renderText(parent, text, style.color, opaqueBg(style.backgroundColor), 0);
+  }
+  window.DAA_BITMAP_TEXT = {
+    render: function (parent, text) {
+      bitmapMessages.set(parent, text);
+      paintMessage(text, parent);
+    }
+  };
+  window.dispatchEvent(new Event('bitmaptextready'));
 
   function close(restoreFocus) {
     if (!active) return;
@@ -144,12 +255,21 @@
     var height = viewport ? viewport.height : window.innerHeight;
     var below = top + height - rect.bottom - 4;
     var above = rect.top - top - 4;
+    // Style sizes are element-local base units; compare against the
+    // viewport in the same units by dividing out the element zoom.
+    var q = zoomState.e;
     var desired = Math.min(rows.length * 17 + 4, 240);
-    var upwards = below < desired && above > below;
-    popup.style.height = Math.max(21, Math.min(desired, upwards ? above : below)) + 'px';
-    popup.style.width = Math.min(Math.max(185, rect.width), width - 8) + 'px';
-    popup.style.left = Math.max(left + 4, Math.min(rect.left, left + width - popup.offsetWidth - 4)) + 'px';
-    popup.style.top = (upwards ? rect.top - popup.offsetHeight : rect.bottom) + 'px';
+    var upwards = below < desired * q && above > below;
+    popup.style.height = Math.max(21, Math.min(desired, upwards ? above / q : below / q)) + 'px';
+    popup.style.width = Math.min(Math.max(185, rect.width / q), (width - 8) / q) + 'px';
+    var popupWidth = popup.getBoundingClientRect().width;
+    var popupHeight = popup.getBoundingClientRect().height;
+    var x = Math.max(left + 4, Math.min(rect.left, left + width - popupWidth - 4));
+    var y = upwards ? rect.top - popupHeight : rect.bottom;
+    // Fixed offsets also live inside the element's CSS zoom.
+    popup.style.left = (Math.round(x * zoomState.d) / zoomState.d / q) + 'px';
+    popup.style.top = (Math.round(y * zoomState.d) / zoomState.d / q) + 'px';
+    schedulePixelAlignment();
   }
 
   function open(button, source) {
@@ -182,6 +302,7 @@
     menu.addEventListener('pointerdown', function (event) { event.preventDefault(); });
     popup.appendChild(menu);
     document.body.appendChild(popup);
+    popup.style.zoom = elementZoom();
     rows.forEach(paintRow);
     button.setAttribute('aria-expanded', 'true');
     button.focus({ preventScroll: true });
@@ -262,6 +383,8 @@
       button.append(label, arrow);
       configure(button, source);
       source.w95Button = button;
+      pairs.push({ button: button, source: source });
+      button.style.zoom = elementZoom();
       source.insertAdjacentElement('afterend', button);
       paintLabel(button, source);
       source.classList.add('w95-select-source');
@@ -275,9 +398,10 @@
     document.addEventListener('focusin', function (event) {
       if (active && event.target !== active.button && !popup.contains(event.target)) close(false);
     });
-    window.addEventListener('resize', position);
+    window.addEventListener('resize', function () { position(); schedulePixelAlignment(); });
     window.addEventListener('scroll', function (event) {
       if (active && !popup.contains(event.target)) position();
+      schedulePixelAlignment();
     }, true);
     if (window.visualViewport) {
       window.visualViewport.addEventListener('resize', position);
@@ -289,8 +413,29 @@
       if (/^[a-z]list$/.test(layer.id)) observer.observe(layer, { attributes: true, attributeFilter: ['style'] });
     });
   }
-  // Also handle the shared script building touch overlays after this async
-  // script has loaded, while a deferred script holds DOMContentLoaded open.
+  // Watch the exact current DPR, then re-arm after every change. Threshold
+  // queries alone miss changes such as 120% -> 140% within the same strike.
+  var densityQuery;
+  function watchDensity() {
+    if (!window.matchMedia) return;
+    if (densityQuery) {
+      if (densityQuery.removeEventListener) densityQuery.removeEventListener('change', densityChanged);
+      else if (densityQuery.removeListener) densityQuery.removeListener(densityChanged);
+    }
+    densityQuery = window.matchMedia('(resolution: ' + zoomState.d + 'dppx)');
+    if (densityQuery.addEventListener) densityQuery.addEventListener('change', densityChanged);
+    else if (densityQuery.addListener) densityQuery.addListener(densityChanged);
+  }
+  function densityChanged() {
+    recheckScaling();
+    watchDensity();
+  }
+  watchDensity();
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener('resize', recheckScaling);
+  }
+  window.addEventListener('resize', recheckScaling);
+  window.addEventListener('pageshow', densityChanged);
   document.addEventListener('alphabetpickersready', enhanceTouchPickers);
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();

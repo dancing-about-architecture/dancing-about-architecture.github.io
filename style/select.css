@@ -1,13 +1,13 @@
-/* Win95 combo boxes: Chicago95-inspired geometry, set in DAABitmap (traced
-   from style/fonts/bitmap/bitmap-100.sfd) with W95FA as the fallback for
-   glyphs the bitmap does not draw. Loaded with select.js; the original
+/* Win95 combo boxes: Chicago95-inspired geometry. Labels paint as canvas
+   pixels from the hand-drawn strikes (see bitmap-glyphs.js); monospace is
+   the fallback for characters without bitmap glyphs. Loaded with select.js; the original
    selects remain the navigation data. */
 .w95-select,
 .w95-select-menu {
   box-sizing: border-box;
   color: #000;
   background: #fff;
-  font: 400 12.5px/17px "DAABitmap", "W95FA", sans-serif;
+  font: 400 12.5px/17px monospace;
   text-align: left;
   border-radius: 0;
   /* Pixel grid: never smooth or synthesize (faux bold/italic would blur). */
@@ -15,6 +15,8 @@
   -webkit-font-smoothing: none;
   font-synthesis: none;
 }
+/* Inline zoom from select.js holds these boxes at supported bitmap sizes under
+   page zoom; sizes below are base units inside that zoomed subtree. */
 .w95-select {
   display: inline-flex;
   align-items: center;
@@ -89,7 +91,7 @@ form.w95-select-form::after { content: none; }
   min-height: 17px;
   padding: 0 3px;
   white-space: nowrap;
-  cursor: url("cursors/default-100.png") 0 0, default;
+  cursor: var(--daa-cursor-default, default);
 }
 .w95-select-option[aria-selected="true"] {
   background: #000080;
@@ -99,8 +101,9 @@ form.w95-select-form::after { content: none; }
 /* Bitmap labels: nearest-neighbour keeps hard pixels under fractional
    offsets and scaling (translation rounds instead of blending). */
 .w95-bitmap {
-  image-rendering: pixelated;
+  transform-origin: 0 0;
   image-rendering: crisp-edges;
+  image-rendering: pixelated;
   vertical-align: baseline;
 }
 /* Real text for screen readers, find-in-page, and copy/paste. */

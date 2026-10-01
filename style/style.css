@@ -67,12 +67,63 @@ div p font img {
   border: 1px solid black;
 }
 
+/* Cursor PNGs keep their device-pixel sizes between density thresholds.
+   Larger variants repeat authored pixels; hotspots scale with the image.
+   Stop at 500% to keep every image below the common 128px cursor limit. */
+:root {
+  --daa-cursor-default: url("cursors/default-100.png") 0 0, default;
+  --daa-cursor-click: url("cursors/click-100.png") 6 0, pointer;
+  --daa-cursor-beam: url("cursors/beam-100.png") 5 11, text;
+}
+@media (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5) {
+  :root {
+    --daa-cursor-default: url("cursors/default-150.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-150.png") 9 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-150.png") 8 16, text;
+  }
+}
+@media (min-resolution: 2.0dppx), (-webkit-min-device-pixel-ratio: 2.0) {
+  :root {
+    --daa-cursor-default: url("cursors/default-200.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-200.png") 12 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-200.png") 10 22, text;
+  }
+}
+@media (min-resolution: 3.0dppx), (-webkit-min-device-pixel-ratio: 3.0) {
+  :root {
+    --daa-cursor-default: url("cursors/default-300.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-300.png") 18 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-300.png") 16 32, text;
+  }
+}
+@media (min-resolution: 4.0dppx), (-webkit-min-device-pixel-ratio: 4.0) {
+  :root {
+    --daa-cursor-default: url("cursors/default-400.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-400.png") 24 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-400.png") 20 44, text;
+  }
+}
+@media (min-resolution: 4.5dppx), (-webkit-min-device-pixel-ratio: 4.5) {
+  :root {
+    --daa-cursor-default: url("cursors/default-450.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-450.png") 27 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-450.png") 24 48, text;
+  }
+}
+@media (min-resolution: 5.0dppx), (-webkit-min-device-pixel-ratio: 5.0) {
+  :root {
+    --daa-cursor-default: url("cursors/default-500.png") 0 0, default;
+    --daa-cursor-click: url("cursors/click-500.png") 30 0, pointer;
+    --daa-cursor-beam: url("cursors/beam-500.png") 25 55, text;
+  }
+}
+
 html,
 body,
 body .ie-scrollbar,
 body .ie-scrollbar *,
 body .ie-scrollbar__corner {
-  cursor: url("cursors/default-100.png") 0 0, default;
+  cursor: var(--daa-cursor-default);
 }
 
 body:has(.podcast-mobile-list) a,
@@ -92,7 +143,7 @@ input[type="checkbox"],
 input[type="radio"],
 input[type="color"],
 input[type="range"] {
-  cursor: url("cursors/click-100.png") 6 0, pointer;
+  cursor: var(--daa-cursor-click);
 }
 
 input[type="text"],
@@ -107,98 +158,9 @@ textarea,
 [contenteditable="true"],
 body:has(.podcast-mobile-list) .podcast-mobile-entry h2,
 font {
-  cursor: url("cursors/beam-100.png") 5 11, text;
+  cursor: var(--daa-cursor-beam);
 }
 
-@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-  html,
-  body,
-  body .ie-scrollbar,
-  body .ie-scrollbar *,
-  body .ie-scrollbar__corner {
-    cursor: url("cursors/default-150.png") 0 0, default;
-  }
-
-  body:has(.podcast-mobile-list) a,
-  body:has(.podcast-mobile-list) a *,
-  a,
-  a font,
-  button,
-  select,
-  summary,
-  label,
-  area[href],
-  [role="button"],
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
-  input[type="checkbox"],
-  input[type="radio"],
-  input[type="color"],
-  input[type="range"] {
-    cursor: url("cursors/click-150.png") 9 0, pointer;
-  }
-
-  input[type="text"],
-  input[type="search"],
-  input[type="password"],
-  input[type="email"],
-  input[type="url"],
-  input[type="tel"],
-  input[type="number"],
-  input:not([type]),
-  textarea,
-  [contenteditable="true"],
-  body:has(.podcast-mobile-list) .podcast-mobile-entry h2,
-  font {
-    cursor: url("cursors/beam-150.png") 8 16, text;
-  }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
-  html,
-  body,
-  body .ie-scrollbar,
-  body .ie-scrollbar *,
-  body .ie-scrollbar__corner {
-    cursor: url("cursors/default-200.png") 0 0, default;
-  }
-
-  body:has(.podcast-mobile-list) a,
-  body:has(.podcast-mobile-list) a *,
-  a,
-  a font,
-  button,
-  select,
-  summary,
-  label,
-  area[href],
-  [role="button"],
-  input[type="submit"],
-  input[type="button"],
-  input[type="reset"],
-  input[type="checkbox"],
-  input[type="radio"],
-  input[type="color"],
-  input[type="range"] {
-    cursor: url("cursors/click-200.png") 12 0, pointer;
-  }
-
-  input[type="text"],
-  input[type="search"],
-  input[type="password"],
-  input[type="email"],
-  input[type="url"],
-  input[type="tel"],
-  input[type="number"],
-  input:not([type]),
-  textarea,
-  [contenteditable="true"],
-  body:has(.podcast-mobile-list) .podcast-mobile-entry h2,
-  font {
-    cursor: url("cursors/beam-200.png") 10 22, text;
-  }
-}
 
 a[href="start.html"],
 a[href="../pages/start.html"] {

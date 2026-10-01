@@ -4,22 +4,30 @@
   var status = document.getElementById('copy-rss-status');
   if (!button || !status) return;
   var reset;
+  function paintStatus() {
+    if (window.DAA_BITMAP_TEXT && status.textContent) {
+      window.DAA_BITMAP_TEXT.render(status, status.textContent);
+    }
+  }
+  window.addEventListener('bitmaptextready', paintStatus);
+  function showStatus(message, duration) {
+    status.textContent = message;
+    status.hidden = false;
+    paintStatus();
+    reset = setTimeout(function () { status.hidden = true; }, duration);
+  }
   button.addEventListener('click', async function () {
     clearTimeout(reset);
     try {
       await navigator.clipboard.writeText(button.textContent.trim());
-      status.textContent = 'Copied to clipboard';
-      status.hidden = false;
-      reset = setTimeout(function () { status.hidden = true; }, 2500);
+      showStatus('Copied to clipboard', 2500);
     } catch (error) {
       var range = document.createRange();
       range.selectNodeContents(button);
       var selection = window.getSelection();
       selection.removeAllRanges();
       selection.addRange(range);
-      status.textContent = 'Select and copy this address.';
-      status.hidden = false;
-      reset = setTimeout(function () { status.hidden = true; }, 5000);
+      showStatus('Select and copy this address.', 5000);
     }
   });
 }());
