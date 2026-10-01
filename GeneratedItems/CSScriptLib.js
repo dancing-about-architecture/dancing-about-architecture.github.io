@@ -2205,3 +2205,12 @@ function SetCookie (cookiename, value) {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initAlphabetPickers);
     else initAlphabetPickers();
 })();
+
+// Keep the alphabox easter egg with the other shared site customizations.
+(function () {
+    var source = document.currentScript;
+    if (!source) return;
+    var script = document.createElement('script');
+    script.src = new URL('../style/artist-scrollbars.js', source.src).href;
+    document.head.appendChild(script);
+})();
