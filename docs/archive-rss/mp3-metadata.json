@@ -1,0 +1,627 @@
+[
+  {
+    "file": "AON_pod.mp3",
+    "duration": "4791.040000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000288 000000000C97EEE8 02000003 0491A2F0 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002F8 000002E7 00008783 0000DF9B 001E19F0 001E1A08 00008000 00008000 0003D97C 0003C7E4",
+      "title": "AON_ pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Air_pod.mp3",
+    "duration": "814.027750",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002B8 000000000223C038 02000003 00C6AFAC 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000447 0000053F 000093DB 00009C11 00036CA4 00036CA4 00008000 00008000 000321A1 00031CEA",
+      "title": "Air_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Arnold_pod.mp3",
+    "duration": "1466.148563",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002DC 0000000003DA9214 02000003 0165E539 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000343 0000033A 00006AD8 0000AAC5 000BB178 00047DC0 00008000 00008000 000351E2 00010DD7",
+      "title": "Arnold_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Blondie_pod.mp3",
+    "duration": "2309.616313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000030C 0000000006122664 02000003 0233D1F5 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004B7 000004B5 0000CC1B 00009277 0021509D 0021509D 00008000 00008000 00128397 0001C455",
+      "title": "Blondie_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Boston_pod.mp3",
+    "duration": "1516.584000",
+    "tags": {
+      "track": "1",
+      "TYER": "0",
+      "comment": "Made with Sonic Foundry ACID 4",
+      "encoded_by": "Online Media Technologies"
+    }
+  },
+  {
+    "file": "Bowie_pod.mp3",
+    "duration": "2542.524063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000033C 0000000006AEE034 02000003 026CAEB1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000040C 00000448 00009856 000099D7 00150695 00150397 00008000 00008000 0005DDAD 0003BEBA",
+      "title": "Bowie_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Bowwow_pod.mp3",
+    "duration": "960.444063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000033C 0000000002864634 02000003 00EA6EB1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000379 000003E1 00002BDB 00003AE2 00016916 000CA501 00007BFD 000077EF 00004C19 00004C02",
+      "title": "Bowwow_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Childs_podcast.mp3",
+    "duration": "650.318313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000240 0000000001B59730 02000003 009EB7D6 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000020B 0000020E 00001A87 00001C79 00094B69 0003BF17 00007216 000073F0 0004CDD7 00065567",
+      "title": "Childs_podcast",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Cline_pod.mp3",
+    "duration": "818.494688",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002C4 000000000226C1AC 02000003 00C7C6DB 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002C9 000002A0 00001544 00001533 00015FA7 0001ADC7 000068E3 00006719 0003A980 0003F7A0",
+      "title": "Cline_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Darling_pod.mp3",
+    "duration": "757.368125",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003F0 0000000001FD9E80 02000003 00B8DA72 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000167 00000183 00001E93 00001DC6 00050659 00050659 00007775 00007E79 00091957 0000D46D",
+      "title": "Darling_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Deee-lite_pod.mp3",
+    "duration": "1412.493063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000027C 0000000003B67774 02000003 0158CBC1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002C5 000002D6 0000341A 00003E61 000D1CD3 000D5F4F 00007F71 00007F1E 000D3A65 0001F30C",
+      "title": "Deee-lite_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Devo_pod.mp3",
+    "duration": "1632.862000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000408 00000000044ABFE8 02000003 018E98D1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000227 00000219 000027F5 00003F96 0004A0F1 000EB957 00007F09 00007F87 00134F7D 0005806F",
+      "title": "Devo pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Eagles_pod.mp3",
+    "duration": "1399.118313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000240 0000000003AD77B0 02000003 015587D6 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002FC 0000031F 00004497 00009D0D 00058A69 0001DF2F 00008000 00008000 000F944C 0000890D",
+      "title": "Eagles_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Eno_B_pod.mp3",
+    "duration": "2600.515875",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000420 0000000006D5E550 02000003 027AD72F 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000224 00000235 0000D973 0000E41F 0007396E 0007396E 00008000 00008000 0006510D 0005B7AC",
+      "title": "Eno_B_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Eno_R_pod.mp3",
+    "duration": "1107.304438",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000228 0000000002E91A48 02000003 010E4978 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000015D 00000164 000023C1 00002B56 0005C95C 000FA886 000074AE 00007566 00030D22 0001BB72",
+      "title": "Eno_R_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Foetus_pod.mp3",
+    "duration": "1217.541188",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003E4 000000000333468C 02000003 01293343 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000534 0000052B 00007088 00006C5B 0009B886 00042866 00008000 00008000 0006AAD9 0002EE1D",
+      "title": "Foetus_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Hagen_pod.mp3",
+    "duration": "1940.976313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000009F0 00000000051A0F80 02000003 01D9D1F5 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000567 000005F3 0000A8DD 0000BB3D 00094B51 00094B51 00008000 00008000 001C0BAE 000F6198",
+      "title": "Hagen_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Haircut_pod.mp3",
+    "duration": "992.548563",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002DC 00000000029BE114 02000003 00F24539 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000032A 000002BA 000035DB 000023DD 0006ADD7 00007547 00007D12 00007F5E 0001928A 0001B033",
+      "title": "Haircut_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Harris_pod.mp3",
+    "duration": "1501.335500",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002E8 0000000003F23F88 02000003 016E7C68 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000384 0000039B 00002967 00003667 0009C00D 0009C00D 00008000 00008000 00006053 00072E18",
+      "title": "Harris_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Hitmen_pod.mp3",
+    "duration": "2772.950188",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000324 000000000749EECC 02000003 02A4F053 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000540 00000551 00008069 000068E6 000CE9D9 0017D820 00008000 00008000 000D3820 000D39D9",
+      "title": "Hitmen_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Icehouse_pod.mp3",
+    "duration": "1018.697125",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000A14 0000000002AD725C 02000003 00F8A782 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000433 00000463 000049B1 00005576 00033BEF 000339D9 00008000 00008000 0003D87D 0004720C",
+      "title": "Icehouse_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Isaak_pod.mp3",
+    "duration": "980.532188",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000258 000000000293CB98 02000003 00EF5634 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000039B 00000347 0000C664 0000A544 0001A099 0001A099 00008000 00008000 00018F17 0000FDF7",
+      "title": "Isaak_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Jackson_pod.mp3",
+    "duration": "1799.967313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003CC 0000000004BB32A4 02000003 01B764E5 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004FE 0000044A 0000BBBB 000087C3 000BC2B3 0017286F 00008000 00008000 00008328 0004AD47",
+      "title": "Jackson_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Jarre_pod.mp3",
+    "duration": "1124.911000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000348 0000000002F4F228 02000003 011295E0 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000029C 00000289 000048CC 0000613D 0010C310 0010D3D8 00007B09 000079DF 000E8E70 000FB47F",
+      "title": "Jarre_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Kraftwerk_pod.mp3",
+    "duration": "1872.117500",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000021C 0000000004EBC154 02000003 01C90249 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000028F 000002D0 0000977F 0000A007 001874F3 001809BD 00008000 00008000 0006908B 00071D96",
+      "title": "Kraftwerk_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Lovich_pod.mp3",
+    "duration": "2976.470188",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000324 0000000007D2E24C 02000003 02D6A053 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000387 00000381 00006932 000059F6 000D7B84 0023907D 00008000 00008000 0006A4F3 00091B56",
+      "title": "Lovich_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Lucky_pod.mp3",
+    "duration": "992.784000",
+    "tags": {
+      "track": "1",
+      "TYER": "0",
+      "comment": "Made with Sonic Foundry ACID 4",
+      "encoded_by": "Online Media Technologies"
+    }
+  },
+  {
+    "file": "Manhattan_pod.mp3",
+    "duration": "1209.888000",
+    "tags": {
+      "track": "1",
+      "TYER": "0",
+      "comment": "Made with Sonic Foundry ACID 4",
+      "encoded_by": "Online Media Technologies"
+    }
+  },
+  {
+    "file": "Marley_pod.mp3",
+    "duration": "1783.170563",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000045C 0000000004AFE494 02000003 01B34B1A 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000362 00000319 0001AB59 0001A6D2 0011F7BA 0011F7D1 00008000 00008000 0005C430 0004A534",
+      "title": "Marley_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "McFerrin_pod.mp3",
+    "duration": "898.795063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003FC 00000000025CC974 02000003 00DB61A1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000252 00000274 00006924 0000578D 00044E21 00044E21 00007FA8 00008000 00040762 000206BA",
+      "title": "McFerrin_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Mitchell_pod.mp3",
+    "duration": "1541.485688",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000384 00000000040D436C 02000003 017849CB 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000305 000002CA 00006687 00004C4C 00058AAF 00014C9B 00007DB6 00007AD0 000597BE 000458BE",
+      "title": "Mitchell_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Nylons_pod.mp3",
+    "duration": "651.807313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003CC 0000000001B69624 02000003 009F14E5 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000028D 00000270 000019BF 00001CC7 0003C343 0003C343 000074E9 0000744A 000019F0 000019F0",
+      "title": "Nylons_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Oingo_pod.mp3",
+    "duration": "2108.160000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000288 00000000058A96E8 02000003 0202A2F0 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000576 00000510 0000B7AF 00008BB5 0018B571 00079E4B 00008000 00008000 00031EA3 00033BEF",
+      "title": "Oingo_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Queen_pod.mp3",
+    "duration": "2156.640000",
+    "tags": {
+      "track": "1",
+      "TYER": "0",
+      "comment": "Made with Sonic Foundry ACID 4",
+      "encoded_by": "Online Media Technologies"
+    }
+  },
+  {
+    "file": "Radiohead_pod.mp3",
+    "duration": "1831.288125",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003F0 0000000004D04600 02000003 01BF0A72 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000677 0000066F 0000AB14 0000894F 0004A833 0004A833 00008000 00008000 0008CD0F 000902D9",
+      "title": "Radiohead_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Roxy_pod.mp3",
+    "duration": "3332.604263",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000438 0000000008C28EB8 02000003 060CCFD9 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000759 000007AB 000130D1 0001493A 0008EB89 00074468 00008000 00008000 0000FF0E 0000FF0E",
+      "title": "Roxy_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Smith_pod.mp3",
+    "duration": "919.222813",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000042C 00000000026A8844 02000003 00E05E5E 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000003AA 0000033E 00004A11 0000412A 0007AF13 0008EAB8 00008000 00008000 0008D198 0008DDEE",
+      "title": "Smith_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Synergy_pod.mp3",
+    "duration": "4758.752625",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000390 000000000C8233E0 02000003 0489C0FA 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000047A 00000413 0000AAF1 00007E59 0027318F 00233E95 00008000 00008000 000ABA4D 000AB6AC",
+      "title": "Synergy_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Talking_pod.mp3",
+    "duration": "4794.174688",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002C4 000000000C9A0AAC 02000003 049266DB 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000580 000005B5 0000A6D2 0000E963 000845E9 001FA00D 00008000 00008000 00001F90 0000045A",
+      "title": "Talking_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Trees_pod.mp3",
+    "duration": "669.466063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000270 0000000001C27980 02000003 00A36492 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000005BE 00000742 00005756 00006E16 000114BC 000114D3 00008000 00008000 0001ADA8 0001A223",
+      "title": "Trees_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Ultravox_pod.mp3",
+    "duration": "2438.086500",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003A8 00000000066898C8 02000003 02532F58 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004E4 000004B4 0000FB80 00013CC7 0000E04E 0000E04E 00008000 00008000 0000353E 0000D8F6",
+      "title": "Ultravox_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Visage_pod.mp3",
+    "duration": "2204.186063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000270 0000000005CB3500 02000003 021A1492 00000000 00000000 00000000 00000000 00000000 00000000",
+      "title": "Visage_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Whitman_pod.mp3",
+    "duration": "1225.142813",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000042C 00000000033863C4 02000003 012B0E5E 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004AA 000004B8 000064AB 000064AB 000F8F38 000F8F38 00008000 00008000 000B7410 000AE392",
+      "title": "Whitman_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Wilbrandt_pod.mp3",
+    "duration": "1099.102000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000408 0000000002E39368 02000003 010C48D1 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004B8 00000543 00008642 00008A9B 000E53AA 000DA70E 00008000 00008000 00047894 0004B0E8",
+      "title": "Wilbrandt_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Winston_pod.mp3",
+    "duration": "3305.247313",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003CC 0000000008B01EA4 02000003 0326E4E5 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000227 00000224 00003AC7 000054A0 000496B1 0010135F 00007C66 00007AA8 001016E9 00099E38",
+      "title": "Winston_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Yello_pod.mp3",
+    "duration": "4797.857938",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000354 000000000C9C849C 02000003 04934D0F 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000391 0000037A 00008C2A 0000B5A7 00086833 0035D3DD 00008000 00008000 00012E67 00009960",
+      "title": "Yello_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "Zappa_pod.mp3",
+    "duration": "2990.471813",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 0000036C 0000000007DC4E04 02000003 02DA0B6D 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000004B8 0000050E 00005886 000101B1 00018591 0028AC3E 00008000 00008000 00125041 000843D3",
+      "title": "Zappa_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "apology_pod.mp3",
+    "duration": "164.858750"
+  },
+  {
+    "file": "armatrading_pod.mp3",
+    "duration": "623.124875",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000360 0000000001A34990 02000003 0098143E 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000316 0000030C 000028CE 00002ADB 0005F7FB 0003F058 00007BBE 00007A68 0003DDC0 0003F9AF",
+      "title": "armatrading_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "beck_pod.mp3",
+    "duration": "1766.922438",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002F4 0000000004A4F6FC 02000003 01AF5397 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000003E1 000003D6 00007288 00007508 0014BE4B 0014C82E 00008000 00008000 0000C348 0001256C",
+      "title": "beck_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "byrne_pod.mp3",
+    "duration": "1918.693875",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000002A0 00000000050B1850 02000003 01D4614E 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002C3 00000307 00005AD6 0000555B 000ACCA0 0005393B 00008000 00008000 00048501 00048CCE",
+      "title": "byrne_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "cadell_pod.mp3",
+    "duration": "515.474250",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 000003D8 00000000015AD898 02000003 007DCC14 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000026A 00000296 00002CA7 00004F03 0003FD50 00038F90 00008000 00007F5B 00050CF8 00007F2A",
+      "title": "cadell_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "carlos_pod.mp3",
+    "duration": "2090.266063",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000270 00000000057E8C80 02000003 01FE4492 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000002C0 000002E8 000064F6 00006053 0016E153 0006CB69 00008000 00007F56 00084CB7 001F89BD",
+      "title": "carlos_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "cars_pod.mp3",
+    "duration": "1282.664438",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000B58 00000000035F1198 02000003 01391978 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 00000347 000003A1 00003EC4 00004ADE 00067C96 000F691F 00007F67 00008000 001184CE 00069216",
+      "title": "cars_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "cocteau_pod.mp3",
+    "duration": "1180.525688",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000384 00000000031A5E6C 02000003 012029CB 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 0000025C 0000026D 00002322 000021CA 0005D140 0005CE13 00007550 00007803 00065F05 00097B4D",
+      "title": "cocteau_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "gabriel_pod.mp3",
+    "duration": "4790.831000",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000C78 000000000C97C0F8 02000003 049195E0 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000001DF 000001F2 00005FBB 00005C2E 0046D981 0046E17C 00008000 00008000 0011FA8A 00122613",
+      "title": "gabriel_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "lang_pod.mp3",
+    "duration": "2504.515875",
+    "tags": {
+      "iTunSMPB": " 00000000 00000210 00000420 0000000006954BD0 02000003 0263672F 00000000 00000000 00000000 00000000 00000000 00000000",
+      "iTunNORM": " 000003B6 000003A1 0000714F 00005687 001FF47F 0007BD50 00008000 00008000 00003157 0000245F",
+      "title": "lang_pod",
+      "artist": "Christopher Earl",
+      "album": "Dancing about Architecture"
+    }
+  },
+  {
+    "file": "numan_pod.mp3",
+    "duration": "1192.104000",
+    "tags": {
+      "track": "1",
+      "TYER": "0",
+      "comment": "",
+      "encoded_by": "Online Media Technologies"
+    }
+  }
+]

@@ -1,3 +1,29 @@
+/* Copy the feed address for podcast readers. */
+(function () {
+  var button = document.getElementById('copy-rss-feed');
+  var status = document.getElementById('copy-rss-status');
+  if (!button || !status) return;
+  var reset;
+  button.addEventListener('click', async function () {
+    clearTimeout(reset);
+    try {
+      await navigator.clipboard.writeText(button.textContent.trim());
+      status.textContent = 'Copied to clipboard';
+      status.hidden = false;
+      reset = setTimeout(function () { status.hidden = true; }, 2500);
+    } catch (error) {
+      var range = document.createRange();
+      range.selectNodeContents(button);
+      var selection = window.getSelection();
+      selection.removeAllRanges();
+      selection.addRange(range);
+      status.textContent = 'Select and copy this address.';
+      status.hidden = false;
+      reset = setTimeout(function () { status.hidden = true; }, 5000);
+    }
+  });
+}());
+
 /* Build the narrow layout from the original tables so both views share links. */
 (function () {
   document.querySelectorAll('table[width="699"], table[width="698"]').forEach(function (table) {

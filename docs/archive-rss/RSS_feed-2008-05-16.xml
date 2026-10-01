@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss 
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+    version="2.0">
+    <channel>
+        <title>Dancing About Architecture</title>
+        <description>A life. With music.</description>
+        <link>http://www.hypercubism.com/threads/podcasts</link>
+        <copyright>2007</copyright>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <language>en-us</language>
+        <lastBuildDate>Sun, 16 Mar 2008 11:11:11 -0800</lastBuildDate>
+        <managingEditor>christophearl@yahoo.com</managingEditor>
+        <pubDate>Sun, 16 Mar 2008 11:11:11 -0800</pubDate>
+        <itunes:subtitle>A life. With music.</itunes:subtitle>
+        <itunes:summary>A life. With music.</itunes:summary>
+        <itunes:author>Sugarscape</itunes:author>
+        <itunes:owner>
+            <itunes:name>Christopher Earl</itunes:name>
+            <itunes:email>christophearl@yahoo.com</itunes:email>
+        </itunes:owner>
+        <itunes:category text="Music"/>
+        <itunes:keywords>music,autobiography,Interlochen,new wave,dancing,architecture.art.noise.gabriel.yello.eno, synergy</itunes:keywords>
+        <itunes:image href="http://www.hypercubism.com/site_grfx/eye.jpg"/>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>no</itunes:block>
+        <item>
+            <title>Air</title>
+            <description>plus ca change...</description>
+            <link>http://www.hypercubism.com/podcasts/Air_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Air_pod.mp3" length="13024861" type="audio/mpeg"/>
+            <guid isPermaLink="false">B5A595F5-654A-4074-99F8-ECA235761E80</guid>
+            <pubDate>Sun, 4 Feb 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>plus ca change</itunes:subtitle>
+            <itunes:summary>Boomers suck - buying a house</itunes:summary>
+            <itunes:duration>13:33</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Joan Armatrading</title>
+            <description>number 1 is dumb, number 2 is best</description>
+            <link>http://www.hypercubism.com/podcasts/armatrading_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/armatrading_pod.mp3" length="9970415" type="audio/mpeg"/>
+            <guid isPermaLink="false">0241E9DA-0E35-48A4-A105-EFA36B128585</guid>
+            <pubDate>Sun, 11 Feb 2007 23:11:11 -0800</pubDate>
+            <itunes:subtitle>number 1 is dumb, number 2 is best</itunes:subtitle>
+            <itunes:summary>tips for collectors - chick music - two sippy cups</itunes:summary>
+            <itunes:duration>10:23</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Eddie Arnold</title>
+            <description>giving thanks</description>
+            <link>http://www.hypercubism.com/podcasts/Arnold_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Arnold_pod.mp3" length="9970415" type="audio/mpeg"/>
+            <guid isPermaLink="false">A9B82EDE-4286-47AE-A723-3D6F64B783BA</guid>
+            <pubDate>Sun, 18 Feb 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>giving thanks</itunes:subtitle>
+            <itunes:summary>Thanksgiving in Troy - Thanksgiving in Vegas</itunes:summary>
+            <itunes:duration>24:26</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Art of Noise</title>
+            <description>who&apos;s afraid?</description>
+            <link>http://www.hypercubism.com/podcasts/AON_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/AON_pod.mp3" length="76657057" type="audio/mpeg"/>
+            <guid isPermaLink="false">2C8273F5-967C-42B9-857A-301765EE4449</guid>
+            <pubDate>Sun, 25 Feb 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>who&apos;s afraid</itunes:subtitle>
+            <itunes:summary>New loft in NYC - musique concrete - Geoff - Moment</itunes:summary>
+            <itunes:duration>1:19:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Beck</title>
+            <description>soy un perdedor</description>
+            <link>http://www.hypercubism.com/podcasts/beck_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/beck_pod.mp3" length="28271176" type="audio/mpeg"/>
+            <guid isPermaLink="false">9419DCA7-CFB6-49DF-8433-6907EED2C18C</guid>
+            <pubDate>Sun, 4 Mar 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>soy un perdidor</itunes:subtitle>
+            <itunes:summary>Japan - electric finger</itunes:summary>
+            <itunes:duration>29:26</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Blondie</title>
+            <description>fade away and radiate</description>
+            <link>http://www.hypercubism.com/podcasts/Blondie_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Blondie_pod.mp3" length="36953861" type="audio/mpeg"/>
+            <guid isPermaLink="false">0DB57358-2BA7-4851-8A5F-D6169D24DAF4</guid>
+            <pubDate>Sun, 11 Mar 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>fade away and radiate</itunes:subtitle>
+            <itunes:summary>Dance Tour</itunes:summary>
+            <itunes:duration>38:29</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Boston</title>
+            <description>more than a feeling</description>
+            <link>http://www.hypercubism.com/podcasts/Boston_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Boston_pod.mp3" length="24267127" type="audio/mpeg"/>
+            <guid isPermaLink="false">5EB02291-FAA7-49E9-9FB2-F8DA3CB82E16</guid>
+            <pubDate>Sun, 18 Mar 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>more than a feeling</itunes:subtitle>
+            <itunes:summary>Intro to Interlochen - borrowing from Melissa - first rock album</itunes:summary>
+            <itunes:duration>25:16</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>David Bowie</title>
+            <description>popping my chemical cherry</description>
+            <link>http://www.hypercubism.com/podcasts/Bowie_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Bowie_pod.mp3" length="40680385" type="audio/mpeg"/>
+            <guid isPermaLink="false">408C42C9-8F91-40E9-84EF-80571A958DDF</guid>
+            <pubDate>Sun, 1 Apr 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>popping my chemical cherry</itunes:subtitle>
+            <itunes:summary>Andrew and the impossibly green afternoon</itunes:summary>
+            <itunes:duration>45:22</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Bow Wow Wow</title>
+            <description>elimination dancing</description>
+            <link>http://www.hypercubism.com/podcasts/Bowwow_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Bowwow_pod.mp3" length="15367105" type="audio/mpeg"/>
+            <guid isPermaLink="false">C2EC6EFC-0597-4D0D-B4B2-F9B07B21E2C0</guid>
+            <pubDate>Sun, 25 Mar 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>elimination dancing</itunes:subtitle>
+            <itunes:summary>Malcolm McLaren - welcome to the U of C</itunes:summary>
+            <itunes:duration>16:00</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>David Byrne + Brian Eno</title>
+            <description>bush of ghosts</description>
+            <link>http://www.hypercubism.com/podcasts/byrne_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/byrne_pod.mp3" length="30699102" type="audio/mpeg"/>
+            <guid isPermaLink="false">DFA23FCE-CB69-46D8-A339-2B5E99B1CDD5</guid>
+            <pubDate>Sun, 8 Apr 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>bush of ghosts</itunes:subtitle>
+            <itunes:summary>desert island discs - yeshe - African music - best album ever</itunes:summary>
+            <itunes:duration>31:58</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Meryn Cadell</title>
+            <description>even a blind pig</description>
+            <link>http://www.hypercubism.com/podcasts/cadell_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/cadell_pod.mp3" length="8248005" type="audio/mpeg"/>
+            <guid isPermaLink="false">E38DB8A7-7049-4A94-8966-53621D556013</guid>
+            <pubDate>Sun, 15 Apr 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>even a blind pig</itunes:subtitle>
+            <itunes:summary>one good song - solitude</itunes:summary>
+            <itunes:duration>8:35</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>W. Carlos</title>
+            <description>his and hers</description>
+            <link>http://www.hypercubism.com/podcasts/carlos_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/carlos_pod.mp3" length="33444257" type="audio/mpeg"/>
+            <guid isPermaLink="false">3AA69E4F-5CBB-4308-BD70-B88F2C36A24F</guid>
+            <pubDate>Sun, 22 Apr 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>his and hers</itunes:subtitle>
+            <itunes:summary>analogue synthesis - Spokane</itunes:summary>
+            <itunes:duration>34:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Cars</title>
+            <description>just what I needed</description>
+            <link>http://www.hypercubism.com/podcasts/cars_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/cars_pod.mp3" length="20523048" type="audio/mpeg"/>
+            <guid isPermaLink="false">354F47EB-1A63-4F1E-8901-2FC7542C51B6</guid>
+            <pubDate>Sun, 29 Apr 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>just what I needed</itunes:subtitle>
+            <itunes:summary>birth of new wave - Jennifer</itunes:summary>
+            <itunes:duration>21:22</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Toni Childs</title>
+            <description>with this ring</description>
+            <link>http://www.hypercubism.com/podcasts/Childs_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Childs_pod.mp3" length="10405093" type="audio/mpeg"/>
+            <guid isPermaLink="false">A74C6736-5B9A-4755-9BF9-2EDD63E3F658</guid>
+            <pubDate>Sun, 6 May 2007 23:11:11 -0800</pubDate>
+            <itunes:subtitle>with this ring</itunes:subtitle>
+            <itunes:summary>real people singing - marrying G</itunes:summary>
+            <itunes:duration>10:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Patsy Cline</title>
+            <description>you got a pretty mouth</description>
+            <link>http://www.hypercubism.com/podcasts/Cline_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Cline_pod.mp3" length="13095915" type="audio/mpeg"/>
+            <guid isPermaLink="false">EE6CAD71-746E-478F-A3BC-FBBB82BF9F0A</guid>
+            <pubDate>Sun, 13 May 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>you got a pretty mouth</itunes:subtitle>
+            <itunes:summary>culture clash - the village butcher</itunes:summary>
+            <itunes:duration>13:38</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Cocteau Twins</title>
+            <description>venus envy</description>
+            <link>http://www.hypercubism.com/podcasts/cocteau_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/cocteau_pod.mp3" length="18888411" type="audio/mpeg"/>
+            <guid isPermaLink="false">1DA0A3BD-AB93-449A-8D1E-8BB3D665B171</guid>
+            <pubDate>Sun, 20 May 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>venus envy</itunes:subtitle>
+            <itunes:summary>meeting g</itunes:summary>
+            <itunes:duration>19:40</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>David Darling</title>
+            <description>le roi est morte</description>
+            <link>http://www.hypercubism.com/podcasts/Darling_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Darling_pod.mp3" length="12118307" type="audio/mpeg"/>
+            <guid isPermaLink="false">48B090DA-BDA2-479A-8EEC-3178B83A2769</guid>
+            <pubDate>Sun, 27 May 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>le roi est mort</itunes:subtitle>
+            <itunes:summary>my dad is dead</itunes:summary>
+            <itunes:duration>12:37</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Deee-Lite</title>
+            <description>world clique</description>
+            <link>http://www.hypercubism.com/podcasts/Deee-lite_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Deee-lite_pod.mp3" length="22599889" type="audio/mpeg"/>
+            <guid isPermaLink="false">7FF2AC5C-1A67-4033-B28F-20CDE8D85C3A</guid>
+            <pubDate>Sun, 3 Jun 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>world clique</itunes:subtitle>
+            <itunes:summary>roller roxy</itunes:summary>
+            <itunes:duration>23:32</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Devo</title>
+            <description>are we not men?</description>
+            <link>http://www.hypercubism.com/podcasts/Devo_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Devo_pod.mp3" length="26126209" type="audio/mpeg"/>
+            <guid isPermaLink="false">47C601E8-D220-4411-A24D-EB4A30C794C2</guid>
+            <pubDate>Sun, 10 Jun 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>are we not men?</itunes:subtitle>
+            <itunes:summary>St. Louis</itunes:summary>
+            <itunes:duration>27:12</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Eagles</title>
+            <description>you only want the ones that you can&apos;t get</description>
+            <link>http://www.hypercubism.com/podcasts/Eagles_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Eagles_pod.mp3" length="22385893" type="audio/mpeg"/>
+            <guid isPermaLink="false">C6820720-392D-47BC-B19C-215508EAB42C</guid>
+            <pubDate>Sun, 17 Jun 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>you only want the ones that you can&apos;t get</itunes:subtitle>
+            <itunes:summary>Mrs. C - country rock</itunes:summary>
+            <itunes:duration>23:19</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Brian Eno</title>
+            <description>the one</description>
+            <link>http://www.hypercubism.com/podcasts/Eno_B_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Eno_B_pod.mp3" length="41608254" type="audio/mpeg"/>
+            <guid isPermaLink="false">59462F91-0233-4024-AEC0-230F0F6F5E44</guid>
+            <pubDate>Sun, 24 Jun 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>the one</itunes:subtitle>
+            <itunes:summary>oblique strategies - Ramon - the birth of ambient - Kathy</itunes:summary>
+            <itunes:duration>43:20</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Roger Eno</title>
+            <description>the other</description>
+            <link>http://www.hypercubism.com/podcasts/Eno_R_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Eno_R_pod.mp3" length="17716871" type="audio/mpeg"/>
+            <guid isPermaLink="false">BB43B27B-E706-40AF-8E0B-8CDD5A6A9C0D</guid>
+            <pubDate>Sun, 1 Jul 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>the other</itunes:subtitle>
+            <itunes:summary>Owen&apos;s first music</itunes:summary>
+            <itunes:duration>18:27</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Foetus</title>
+            <description>thank god for rock and roll</description>
+            <link>http://www.hypercubism.com/podcasts/Foetus_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Foetus_pod.mp3" length="19480659" type="audio/mpeg"/>
+            <guid isPermaLink="false">C68A0604-0708-491C-BA7B-423D0A40AEBB</guid>
+            <pubDate>Sun, 8 Jul 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>thank god for rock and roll</itunes:subtitle>
+            <itunes:summary>Don</itunes:summary>
+            <itunes:duration>20:17</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Peter Gabriel</title>
+            <description>the road less taken</description>
+            <link>http://www.hypercubism.com/podcasts/gabriel_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/gabriel_pod.mp3" length="76653713" type="audio/mpeg"/>
+            <guid isPermaLink="false">79C7612A-C138-4B99-AB94-750738F2D9D9</guid>
+            <pubDate>Sun, 15 Jul 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>the road less taken</itunes:subtitle>
+            <itunes:summary>specious present - U of C talent show - father, son</itunes:summary>
+            <itunes:duration>1:19:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Nina Hagen</title>
+            <description>let&apos;s do the nunsexmonkrock</description>
+            <link>http://www.hypercubism.com/podcasts/Hagen_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Hagen_pod.mp3" length="31055621" type="audio/mpeg"/>
+            <guid isPermaLink="false">20B13F7A-C53D-4C7B-B776-6A7E38087797</guid>
+            <pubDate>Sun, 22 Jul 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>let&apos;s do the nunsexmonkrock</itunes:subtitle>
+            <itunes:summary>censorship - smoking with the &apos;rents</itunes:summary>
+            <itunes:duration>32:20</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Haircut 100</title>
+            <description>fantastic day</description>
+            <link>http://www.hypercubism.com/podcasts/Haircut_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Haircut_pod.mp3" length="15880777" type="audio/mpeg"/>
+            <guid isPermaLink="false">0DC6FE92-AB95-49DE-B7FC-6CD422EAE079</guid>
+            <pubDate>Sun, 29 Jul 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>fantastic day</itunes:subtitle>
+            <itunes:summary>British chart&apos;s - My mom&apos;s wedding</itunes:summary>
+            <itunes:duration>16:32</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Emmylou Harris</title>
+            <description>see what you lost</description>
+            <link>http://www.hypercubism.com/podcasts/Harris_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Harris_pod.mp3" length="24021368" type="audio/mpeg"/>
+            <guid isPermaLink="false">F5359536-40D9-4DDE-8425-BFBC5255AB45</guid>
+            <pubDate>Sun, 5 Aug 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>see what you lost</itunes:subtitle>
+            <itunes:summary>G and I in trouble - My dad&apos;s death</itunes:summary>
+            <itunes:duration>25:01</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Hitmen</title>
+            <description>torn together</description>
+            <link>http://www.hypercubism.com/podcasts/Hitmen_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Hitmen_pod.mp3" length="44367203" type="audio/mpeg"/>
+            <guid isPermaLink="false">65C61DB0-58EB-44E0-89E2-FECE75E3C9A8</guid>
+            <pubDate>Sun, 12 Aug 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>torn together</itunes:subtitle>
+            <itunes:summary>Rory - Exposed - meeting Eric</itunes:summary>
+            <itunes:duration>46:12</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Icehouse</title>
+            <description>broken pieces of clay</description>
+            <link>http://www.hypercubism.com/podcasts/Icehouse_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Icehouse_pod.mp3" length="16299154" type="audio/mpeg"/>
+            <guid isPermaLink="false">F16012F6-1D53-4FFA-B2E8-35F3FE3B8B1F</guid>
+            <pubDate>Sun, 19 Aug 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>broken pieces of clay</itunes:subtitle>
+            <itunes:summary>Brenda - between boy and man</itunes:summary>
+            <itunes:duration>16:58</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Chris Isaak</title>
+            <description>a bad bad thing</description>
+            <link>http://www.hypercubism.com/podcasts/Isaak_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Isaak_pod.mp3" length="15688515" type="audio/mpeg"/>
+            <guid isPermaLink="false">BBDC87C6-15C2-4724-BB28-444BCCC4A2A7</guid>
+            <pubDate>Sun, 26 Aug 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>a bad bad thing</itunes:subtitle>
+            <itunes:summary>pregnancy scare</itunes:summary>
+            <itunes:duration>16:20</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Michael Jackson</title>
+            <description>black stations white stations</description>
+            <link>http://www.hypercubism.com/podcasts/Jackson_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Jackson_pod.mp3" length="28799477" type="audio/mpeg"/>
+            <guid isPermaLink="false">ED44D926-FE5E-4735-91D9-9559DBD13B73</guid>
+            <pubDate>Sun, 2 Sep 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>black stations white stations</itunes:subtitle>
+            <itunes:summary>leaving Chicago - king of pop</itunes:summary>
+            <itunes:duration>29:59</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Jean Michel Jarre</title>
+            <description>exploding vomit</description>
+            <link>http://www.hypercubism.com/podcasts/Jarre_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Jarre_pod.mp3" length="17998993" type="audio/mpeg"/>
+            <guid isPermaLink="false">FC3150BC-91EB-4C94-8895-EE6B72CD4BAC</guid>
+            <pubDate>Sun, 9 Sep 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>exploding vomit</itunes:subtitle>
+            <itunes:summary>visiting Eric - learning to smoke</itunes:summary>
+            <itunes:duration>18:44</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Kraftwerk</title>
+            <description>I&apos;m the operator</description>
+            <link>http://www.hypercubism.com/podcasts/Kraftwerk_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Kraftwerk_pod.mp3" length="29953880" type="audio/mpeg"/>
+            <guid isPermaLink="false">70B9413C-AF2C-4748-9780-32B4C10B1DC3</guid>
+            <pubDate>Sun, 16 Sep 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>I&apos;m the operator</itunes:subtitle>
+            <itunes:summary>auditioning for yeshe - loving the machine</itunes:summary>
+            <itunes:duration>31:12</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>kd lang</title>
+            <description>a star is (re)born</description>
+            <link>http://www.hypercubism.com/podcasts/lang_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/lang_pod.mp3" length="40072254" type="audio/mpeg"/>
+            <guid isPermaLink="false">2342AFD6-12F5-4CA4-BC98-AE6D7CC68AEE</guid>
+            <pubDate>Sun, 23 Sep 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>a star is (re)born</itunes:subtitle>
+            <itunes:summary>moving to LA</itunes:summary>
+            <itunes:duration>41:44</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Lene Lovich</title>
+            <description>lucky number</description>
+            <link>http://www.hypercubism.com/podcasts/Lovich_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Lovich_pod.mp3" length="47623523" type="audio/mpeg"/>
+            <guid isPermaLink="false">6730B69D-95EA-4962-BDD7-980CC416DB99</guid>
+            <pubDate>Sun, 30 Sep 2007 10:11:11 -0800</pubDate>
+            <itunes:subtitle>lucky number</itunes:subtitle>
+            <itunes:summary>live in Chicago - Tina - the bad weekend</itunes:summary>
+            <itunes:duration>49:36</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Lucky Stars</title>
+            <description>o wise sage</description>
+            <link>http://www.hypercubism.com/podcasts/Lucky_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Lucky_pod.mp3" length="15885792" type="audio/mpeg"/>
+            <guid isPermaLink="false">09215F7A-E832-49CB-8DC7-41B973DFE420</guid>
+            <pubDate>Sun, 7 Oct 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>o wise sage</itunes:subtitle>
+            <itunes:summary>ya gotta love him</itunes:summary>
+            <itunes:duration>16:32</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Manhattan Transfer</title>
+            <description>scra bucket</description>
+            <link>http://www.hypercubism.com/podcasts/Manhattan_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Manhattan_pod.mp3" length="19359451" type="audio/mpeg"/>
+            <guid isPermaLink="false">1E9D4035-F298-468A-80E7-2B3393005CB0</guid>
+            <pubDate>Sun, 14 Oct 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>scra bucket</itunes:subtitle>
+            <itunes:summary>hokey pokey Okeefenokee</itunes:summary>
+            <itunes:duration>20:09</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Bob Marley</title>
+            <description>resistance is futile</description>
+            <link>http://www.hypercubism.com/podcasts/Marley_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Marley_pod.mp3" length="28530729" type="audio/mpeg"/>
+            <guid isPermaLink="false">2D54FFB9-C299-4FBD-8539-92BD6001FE46</guid>
+            <pubDate>Sun, 21 Oct 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>resistance is futile</itunes:subtitle>
+            <itunes:summary>excursion on the version</itunes:summary>
+            <itunes:duration>29:43</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Bobby McFerrin</title>
+            <description>blackbird singing</description>
+            <link>http://www.hypercubism.com/podcasts/McFerrin_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/McFerrin_pod.mp3" length="14380721" type="audio/mpeg"/>
+            <guid isPermaLink="false">A6C95C10-1263-4F5B-874C-DF176D5129D6</guid>
+            <pubDate>Sun, 28 Oct 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>blackbird singing</itunes:subtitle>
+            <itunes:summary>Kathy - Kodiak</itunes:summary>
+            <itunes:duration>15:08</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Joni Mitchell</title>
+            <description>it&apos;s coming on Christmas</description>
+            <link>http://www.hypercubism.com/podcasts/Mitchell_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Mitchell_pod.mp3" length="24663771" type="audio/mpeg"/>
+            <guid isPermaLink="false">850E4EE6-8848-49BB-9959-1473833B89F0</guid>
+            <pubDate>Sun, 4 Nov 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>it&apos;s coming on Christmas</itunes:subtitle>
+            <itunes:summary>first musical memory - Thanksgiving with Jennifer</itunes:summary>
+            <itunes:duration>25:41</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Gary Numan</title>
+            <description>Godzilla face</description>
+            <link>http://www.hypercubism.com/podcasts/numan_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/numan_pod.mp3" length="19043474" type="audio/mpeg"/>
+            <guid isPermaLink="false">8D87B9A0-B385-4F40-B265-235E29C5916A</guid>
+            <pubDate>Sun, 11 Nov 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>Godzilla face</itunes:subtitle>
+            <itunes:summary>birth of synth pop, British accents</itunes:summary>
+            <itunes:duration>19:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>The Nylons</title>
+            <description>so long</description>
+            <link>http://www.hypercubism.com/podcasts/Nylons_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Nylons_pod.mp3" length="10428917" type="audio/mpeg"/>
+            <guid isPermaLink="false">F31CDD89-634E-445F-B790-4CC9A5E457BB</guid>
+            <pubDate>Sun, 18 Nov 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>so long</itunes:subtitle>
+            <itunes:summary>G leaves for England</itunes:summary>
+            <itunes:duration>10:51</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Oingo Boingo</title>
+            <description>good for your soul</description>
+            <link>http://www.hypercubism.com/podcasts/Oingo_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Oingo_pod.mp3" length="33730560" type="audio/mpeg"/>
+            <guid isPermaLink="false">135C8CD7-DDDF-4658-A9B2-109D9EAE1DEA</guid>
+            <pubDate>Sun, 25 Nov 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>good for your soul</itunes:subtitle>
+            <itunes:summary>EPs - writing music to text - first concert</itunes:summary>
+            <itunes:duration>35:08</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Queen</title>
+            <description>autumn leaves</description>
+            <link>http://www.hypercubism.com/podcasts/Queen_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Queen_pod.mp3" length="34508381" type="audio/mpeg"/>
+            <guid isPermaLink="false">CC5F4BF3-CB2B-4B9B-BBF6-8D756D4BF645</guid>
+            <pubDate>Sun, 2 Dec 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>autumn leaves</itunes:subtitle>
+            <itunes:summary>first record - raking for Mr. B - puberty hits</itunes:summary>
+            <itunes:duration>35:56</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Radiohead</title>
+            <description>I lost myself</description>
+            <link>http://www.hypercubism.com/podcasts/Radiohead_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Radiohead_pod.mp3" length="29300610" type="audio/mpeg"/>
+            <guid isPermaLink="false">E7F3640B-90D5-4F4D-BFFA-EB5E6F0776F9</guid>
+            <pubDate>Sun, 9 Dec 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>I lost myself</itunes:subtitle>
+            <itunes:summary>becoming an editor - G is pregnant</itunes:summary>
+            <itunes:duration>30:31</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Roxy Music</title>
+            <description>oh yeah</description>
+            <link>http://www.hypercubism.com/podcasts/Roxy_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Roxy_pod.mp3" length="101503769" type="audio/mpeg"/>
+            <guid isPermaLink="false">05B12621-81D9-4D67-BEB8-6160526EC545</guid>
+            <pubDate>Sun, 16 Dec 2007 11:11:11 -0800</pubDate>
+            <itunes:subtitle>oh yeah</itunes:subtitle>
+            <itunes:summary>Times Square - Tina</itunes:summary>
+            <itunes:duration>35:32</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Elliot Smith</title>
+            <description>mister misery</description>
+            <link>http://www.hypercubism.com/podcasts/Smith_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Smith_pod.mp3" length="14707565" type="audio/mpeg"/>
+            <guid isPermaLink="false">E91E08B3-5CB7-4061-B453-79D7E0059594</guid>
+            <pubDate>Sun, 06 Jan 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>mister misery</itunes:subtitle>
+            <itunes:summary>Oscar feud - Owen&apos;s birth</itunes:summary>
+            <itunes:duration>15:19</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Synergy</title>
+            <description>let there be light</description>
+            <link>http://www.hypercubism.com/podcasts/Synergy_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Synergy_pod.mp3" length="76140042" type="audio/mpeg"/>
+            <guid isPermaLink="false">4DA6440B-5D2B-4AA9-8446-825B99F1DBC1</guid>
+            <pubDate>Sun, 13 Jan 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>let there be lgiht</itunes:subtitle>
+            <itunes:summary>running away from home - the discovery of music - the appearance of Frank</itunes:summary>
+            <itunes:duration>1:19:18</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Talking Heads</title>
+            <description>totally naked</description>
+            <link>http://www.hypercubism.com/podcasts/Talking_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Talking_pod.mp3" length="76706795" type="audio/mpeg"/>
+            <guid isPermaLink="false">1E9C5181-AC83-4BDF-8036-4E5DF34FE1DF</guid>
+            <pubDate>Sun, 20 Jan 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>totally naked</itunes:subtitle>
+            <itunes:summary>consumating the relationship</itunes:summary>
+            <itunes:duration>1:19:54</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Trees</title>
+            <description>open all my senses</description>
+            <link>http://www.hypercubism.com/podcasts/Trees_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Trees_pod.mp3" length="10711457" type="audio/mpeg"/>
+            <guid isPermaLink="false">37AAD5F0-653F-4474-9D00-8399DAD9F3BD</guid>
+            <pubDate>Sun, 27 Jan 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>open all my senses</itunes:subtitle>
+            <itunes:summary>blowing of class at U of C</itunes:summary>
+            <itunes:duration>11:09</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Ultravox</title>
+            <description>a spark of electroflesh</description>
+            <link>http://www.hypercubism.com/podcasts/Ultravox_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Ultravox_pod.mp3" length="39009384" type="audio/mpeg"/>
+            <guid isPermaLink="false">722FEBA1-89A1-427A-8E51-F416E6ED0C8F</guid>
+            <pubDate>Sun, 03 Feb 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>a spark of electroflesh</itunes:subtitle>
+            <itunes:summary>drums and wires - Chicago film</itunes:summary>
+            <itunes:duration>40:38</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Visage</title>
+            <description>devenir en gris</description>
+            <link>http://www.hypercubism.com/podcasts/Visage_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Visage_pod.mp3" length="35266977" type="audio/mpeg"/>
+            <guid isPermaLink="false">89DEED9F-0F74-46B7-9FE6-F3354CA71706</guid>
+            <pubDate>Sun, 10 Feb 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>devenir en gris</itunes:subtitle>
+            <itunes:summary>new romantics, trip to Florida, Tina</itunes:summary>
+            <itunes:duration>36:44</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Slim Whitman</title>
+            <description>bigger than the Beatles</description>
+            <link>http://www.hypercubism.com/podcasts/Whitman_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Whitman_pod.mp3" length="19602285" type="audio/mpeg"/>
+            <guid isPermaLink="false">30B7FAF9-8ED9-451D-B147-C0B9F987C874</guid>
+            <pubDate>Sun, 17 Feb 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>bigger than the Beatles</itunes:subtitle>
+            <itunes:summary>moving to Michigan - local TV</itunes:summary>
+            <itunes:duration>20:25</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Thomas Wilbrandt</title>
+            <description>close encounters</description>
+            <link>http://www.hypercubism.com/podcasts/Wilbrandt_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Wilbrandt_pod.mp3" length="17585632" type="audio/mpeg"/>
+            <guid isPermaLink="false">3D1B2606-E7B8-427C-9640-B4E888E4D8CD</guid>
+            <pubDate>Sun, 24 Feb 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>close encounters</itunes:subtitle>
+            <itunes:summary>undercover at PW</itunes:summary>
+            <itunes:duration>18:19</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>George Winston</title>
+            <description>white on white</description>
+            <link>http://www.hypercubism.com/podcasts/Winston_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Winston_pod.mp3" length="52883957" type="audio/mpeg"/>
+            <guid isPermaLink="false">D671800F-D8D4-4F0A-A798-3E34B189D2A7</guid>
+            <pubDate>Sun, 02 Mar 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>white on white</itunes:subtitle>
+            <itunes:summary>Hampshire - the mistake by the lake</itunes:summary>
+            <itunes:duration>55:05</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Yello</title>
+            <description>call it love</description>
+            <link>http://www.hypercubism.com/podcasts/Yello_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Yello_pod.mp3" length="76765727" type="audio/mpeg"/>
+            <guid isPermaLink="false">4455263C-F880-47F9-84C5-FE61A189698E</guid>
+            <pubDate>Sun, 09 Mar 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>call it love</itunes:subtitle>
+            <itunes:summary>moving to NYC - G&apos;s teddy bear</itunes:summary>
+            <itunes:duration>1:19:57</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+        <item>
+            <title>Frank Zappa</title>
+            <description>ACE</description>
+            <link>http://www.hypercubism.com/podcasts/Zappa_pod.mp3</link>
+            <enclosure url="http://www.hypercubism.com/podcasts/Zappa_pod.mp3" length="47847549" type="audio/mpeg"/>
+            <guid isPermaLink="false">9BE71FE5-4364-4EE5-957A-5F100E41C79F</guid>
+            <pubDate>Sun, 16 Mar 2008 11:11:11 -0800</pubDate>
+            <itunes:subtitle>ACE</itunes:subtitle>
+            <itunes:summary>true friends</itunes:summary>
+            <itunes:duration>49:50</itunes:duration>
+            <itunes:author>ce</itunes:author>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:block>no</itunes:block>
+        </item>
+    </channel>
+</rss>

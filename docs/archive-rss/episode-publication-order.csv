@@ -1,0 +1,58 @@
+sequence,title,publication_date,original_audio_url,local_file,local_file_exists,guid,duration
+1,Air,"Sun, 4 Feb 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Air_pod.mp3,Air_pod.mp3,True,B5A595F5-654A-4074-99F8-ECA235761E80,13:33
+2,Joan Armatrading,"Sun, 11 Feb 2007 23:11:11 -0800",http://www.hypercubism.com/podcasts/armatrading_pod.mp3,armatrading_pod.mp3,True,0241E9DA-0E35-48A4-A105-EFA36B128585,10:23
+3,Eddie Arnold,"Sun, 18 Feb 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Arnold_pod.mp3,Arnold_pod.mp3,True,A9B82EDE-4286-47AE-A723-3D6F64B783BA,24:26
+4,Art of Noise,"Sun, 25 Feb 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/AON_pod.mp3,AON_pod.mp3,True,2C8273F5-967C-42B9-857A-301765EE4449,1:19:50
+5,Beck,"Sun, 4 Mar 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/beck_pod.mp3,beck_pod.mp3,True,9419DCA7-CFB6-49DF-8433-6907EED2C18C,29:26
+6,Blondie,"Sun, 11 Mar 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Blondie_pod.mp3,Blondie_pod.mp3,True,0DB57358-2BA7-4851-8A5F-D6169D24DAF4,38:29
+7,Boston,"Sun, 18 Mar 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Boston_pod.mp3,Boston_pod.mp3,True,5EB02291-FAA7-49E9-9FB2-F8DA3CB82E16,25:16
+8,Bow Wow Wow,"Sun, 25 Mar 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Bowwow_pod.mp3,Bowwow_pod.mp3,True,C2EC6EFC-0597-4D0D-B4B2-F9B07B21E2C0,16:00
+9,David Bowie,"Sun, 1 Apr 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Bowie_pod.mp3,Bowie_pod.mp3,True,408C42C9-8F91-40E9-84EF-80571A958DDF,45:22
+10,David Byrne + Brian Eno,"Sun, 8 Apr 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/byrne_pod.mp3,byrne_pod.mp3,True,DFA23FCE-CB69-46D8-A339-2B5E99B1CDD5,31:58
+11,Meryn Cadell,"Sun, 15 Apr 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/cadell_pod.mp3,cadell_pod.mp3,True,E38DB8A7-7049-4A94-8966-53621D556013,8:35
+12,W. Carlos,"Sun, 22 Apr 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/carlos_pod.mp3,carlos_pod.mp3,True,3AA69E4F-5CBB-4308-BD70-B88F2C36A24F,34:50
+13,The Cars,"Sun, 29 Apr 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/cars_pod.mp3,cars_pod.mp3,True,354F47EB-1A63-4F1E-8901-2FC7542C51B6,21:22
+14,Toni Childs,"Sun, 6 May 2007 23:11:11 -0800",http://www.hypercubism.com/podcasts/Childs_pod.mp3,Childs_podcast.mp3,True,A74C6736-5B9A-4755-9BF9-2EDD63E3F658,10:50
+15,Patsy Cline,"Sun, 13 May 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Cline_pod.mp3,Cline_pod.mp3,True,EE6CAD71-746E-478F-A3BC-FBBB82BF9F0A,13:38
+16,Cocteau Twins,"Sun, 20 May 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/cocteau_pod.mp3,cocteau_pod.mp3,True,1DA0A3BD-AB93-449A-8D1E-8BB3D665B171,19:40
+17,David Darling,"Sun, 27 May 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Darling_pod.mp3,Darling_pod.mp3,True,48B090DA-BDA2-479A-8EEC-3178B83A2769,12:37
+18,Deee-Lite,"Sun, 3 Jun 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Deee-lite_pod.mp3,Deee-lite_pod.mp3,True,7FF2AC5C-1A67-4033-B28F-20CDE8D85C3A,23:32
+19,Devo,"Sun, 10 Jun 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Devo_pod.mp3,Devo_pod.mp3,True,47C601E8-D220-4411-A24D-EB4A30C794C2,27:12
+20,The Eagles,"Sun, 17 Jun 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Eagles_pod.mp3,Eagles_pod.mp3,True,C6820720-392D-47BC-B19C-215508EAB42C,23:19
+21,Brian Eno,"Sun, 24 Jun 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Eno_B_pod.mp3,Eno_B_pod.mp3,True,59462F91-0233-4024-AEC0-230F0F6F5E44,43:20
+22,Roger Eno,"Sun, 1 Jul 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Eno_R_pod.mp3,Eno_R_pod.mp3,True,BB43B27B-E706-40AF-8E0B-8CDD5A6A9C0D,18:27
+23,Foetus,"Sun, 8 Jul 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Foetus_pod.mp3,Foetus_pod.mp3,True,C68A0604-0708-491C-BA7B-423D0A40AEBB,20:17
+24,Peter Gabriel,"Sun, 15 Jul 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/gabriel_pod.mp3,gabriel_pod.mp3,True,79C7612A-C138-4B99-AB94-750738F2D9D9,1:19:50
+25,Nina Hagen,"Sun, 22 Jul 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Hagen_pod.mp3,Hagen_pod.mp3,True,20B13F7A-C53D-4C7B-B776-6A7E38087797,32:20
+26,Haircut 100,"Sun, 29 Jul 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Haircut_pod.mp3,Haircut_pod.mp3,True,0DC6FE92-AB95-49DE-B7FC-6CD422EAE079,16:32
+27,Emmylou Harris,"Sun, 5 Aug 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Harris_pod.mp3,Harris_pod.mp3,True,F5359536-40D9-4DDE-8425-BFBC5255AB45,25:01
+28,The Hitmen,"Sun, 12 Aug 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Hitmen_pod.mp3,Hitmen_pod.mp3,True,65C61DB0-58EB-44E0-89E2-FECE75E3C9A8,46:12
+29,Icehouse,"Sun, 19 Aug 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Icehouse_pod.mp3,Icehouse_pod.mp3,True,F16012F6-1D53-4FFA-B2E8-35F3FE3B8B1F,16:58
+30,Chris Isaak,"Sun, 26 Aug 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Isaak_pod.mp3,Isaak_pod.mp3,True,BBDC87C6-15C2-4724-BB28-444BCCC4A2A7,16:20
+31,Michael Jackson,"Sun, 2 Sep 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Jackson_pod.mp3,Jackson_pod.mp3,True,ED44D926-FE5E-4735-91D9-9559DBD13B73,29:59
+32,Jean Michel Jarre,"Sun, 9 Sep 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Jarre_pod.mp3,Jarre_pod.mp3,True,FC3150BC-91EB-4C94-8895-EE6B72CD4BAC,18:44
+33,Kraftwerk,"Sun, 16 Sep 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Kraftwerk_pod.mp3,Kraftwerk_pod.mp3,True,70B9413C-AF2C-4748-9780-32B4C10B1DC3,31:12
+34,kd lang,"Sun, 23 Sep 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/lang_pod.mp3,lang_pod.mp3,True,2342AFD6-12F5-4CA4-BC98-AE6D7CC68AEE,41:44
+35,Lene Lovich,"Sun, 30 Sep 2007 10:11:11 -0800",http://www.hypercubism.com/podcasts/Lovich_pod.mp3,Lovich_pod.mp3,True,6730B69D-95EA-4962-BDD7-980CC416DB99,49:36
+36,The Lucky Stars,"Sun, 7 Oct 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Lucky_pod.mp3,Lucky_pod.mp3,True,09215F7A-E832-49CB-8DC7-41B973DFE420,16:32
+37,The Manhattan Transfer,"Sun, 14 Oct 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Manhattan_pod.mp3,Manhattan_pod.mp3,True,1E9D4035-F298-468A-80E7-2B3393005CB0,20:09
+38,Bob Marley,"Sun, 21 Oct 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Marley_pod.mp3,Marley_pod.mp3,True,2D54FFB9-C299-4FBD-8539-92BD6001FE46,29:43
+39,Bobby McFerrin,"Sun, 28 Oct 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/McFerrin_pod.mp3,McFerrin_pod.mp3,True,A6C95C10-1263-4F5B-874C-DF176D5129D6,15:08
+40,Joni Mitchell,"Sun, 4 Nov 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Mitchell_pod.mp3,Mitchell_pod.mp3,True,850E4EE6-8848-49BB-9959-1473833B89F0,25:41
+41,Gary Numan,"Sun, 11 Nov 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/numan_pod.mp3,numan_pod.mp3,True,8D87B9A0-B385-4F40-B265-235E29C5916A,19:50
+42,The Nylons,"Sun, 18 Nov 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Nylons_pod.mp3,Nylons_pod.mp3,True,F31CDD89-634E-445F-B790-4CC9A5E457BB,10:51
+43,Oingo Boingo,"Sun, 25 Nov 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Oingo_pod.mp3,Oingo_pod.mp3,True,135C8CD7-DDDF-4658-A9B2-109D9EAE1DEA,35:08
+44,Queen,"Sun, 2 Dec 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Queen_pod.mp3,Queen_pod.mp3,True,CC5F4BF3-CB2B-4B9B-BBF6-8D756D4BF645,35:56
+45,Radiohead,"Sun, 9 Dec 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Radiohead_pod.mp3,Radiohead_pod.mp3,True,E7F3640B-90D5-4F4D-BFFA-EB5E6F0776F9,30:31
+46,Roxy Music,"Sun, 16 Dec 2007 11:11:11 -0800",http://www.hypercubism.com/podcasts/Roxy_pod.mp3,Roxy_pod.mp3,True,05B12621-81D9-4D67-BEB8-6160526EC545,35:32
+47,Elliot Smith,"Sun, 06 Jan 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Smith_pod.mp3,Smith_pod.mp3,True,E91E08B3-5CB7-4061-B453-79D7E0059594,15:19
+48,Synergy,"Sun, 13 Jan 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Synergy_pod.mp3,Synergy_pod.mp3,True,4DA6440B-5D2B-4AA9-8446-825B99F1DBC1,1:19:18
+49,Talking Heads,"Sun, 20 Jan 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Talking_pod.mp3,Talking_pod.mp3,True,1E9C5181-AC83-4BDF-8036-4E5DF34FE1DF,1:19:54
+50,Trees,"Sun, 27 Jan 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Trees_pod.mp3,Trees_pod.mp3,True,37AAD5F0-653F-4474-9D00-8399DAD9F3BD,11:09
+51,Ultravox,"Sun, 03 Feb 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Ultravox_pod.mp3,Ultravox_pod.mp3,True,722FEBA1-89A1-427A-8E51-F416E6ED0C8F,40:38
+52,Visage,"Sun, 10 Feb 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Visage_pod.mp3,Visage_pod.mp3,True,89DEED9F-0F74-46B7-9FE6-F3354CA71706,36:44
+53,Slim Whitman,"Sun, 17 Feb 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Whitman_pod.mp3,Whitman_pod.mp3,True,30B7FAF9-8ED9-451D-B147-C0B9F987C874,20:25
+54,Thomas Wilbrandt,"Sun, 24 Feb 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Wilbrandt_pod.mp3,Wilbrandt_pod.mp3,True,3D1B2606-E7B8-427C-9640-B4E888E4D8CD,18:19
+55,George Winston,"Sun, 02 Mar 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Winston_pod.mp3,Winston_pod.mp3,True,D671800F-D8D4-4F0A-A798-3E34B189D2A7,55:05
+56,Yello,"Sun, 09 Mar 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Yello_pod.mp3,Yello_pod.mp3,True,4455263C-F880-47F9-84C5-FE61A189698E,1:19:57
+57,Frank Zappa,"Sun, 16 Mar 2008 11:11:11 -0800",http://www.hypercubism.com/podcasts/Zappa_pod.mp3,Zappa_pod.mp3,True,9BE71FE5-4364-4EE5-957A-5F100E41C79F,49:50

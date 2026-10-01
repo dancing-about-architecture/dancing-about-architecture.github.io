@@ -1,3 +1,12 @@
+/* W95FA's approximately 80-unit pixel grid maps to 1px at 12.5px (1000 UPM). */
+@font-face {
+    font-family: "W95FA";
+    src: url("w95fa.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
 @font-face {
     font-family: "Times";
     src: url("times-regular.woff") format("woff");
