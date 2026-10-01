@@ -355,9 +355,16 @@
   }
 
   function enhanceTouchPickers() {
+    // Keep real selects over the letters on phones/tablets so a direct tap
+    // opens the OS picker. Width only controls the artwork layout: a narrow
+    // desktop window should still use our custom dropdowns.
+    var nativePickers = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
     // The GoLive touch layer positions its direct children. Keep its geometry
     // properties on our replacement buttons and use the original event path.
     document.querySelectorAll('.alphabet-touch-pickers > select').forEach(function (picker) {
+      // Pickers created after init may inherit the hidden source's class.
+      picker.classList.remove('w95-select-source');
+      if (nativePickers) return;
       var source = document.querySelector('#' + picker.alphabetLetter.toLowerCase() + 'list select');
       if (!source || !source.w95Button) return;
       var button = document.createElement('button');
