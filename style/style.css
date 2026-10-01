@@ -407,7 +407,7 @@ div#zlist {
   }
 
   img[name^="ipod_off"] {
-    content: url("../site%20grfx/ipod%20on.png");
+    content: url("../site%20grfx/ipod%20small-screen.png");
   }
 
   /* Pickers sit directly over the four-row artwork on small screens. */
@@ -516,6 +516,6 @@ table:is([width="699"], [width="698"]) img[src*="album%20covers"],
   }
 
   .podcast-mobile-listen img {
-    content: url("../site%20grfx/ipod%20on.png");
+    content: url("../site%20grfx/ipod%20small-screen.png");
   }
 }
