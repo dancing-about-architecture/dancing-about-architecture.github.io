@@ -63,8 +63,12 @@ form:active::after {
   box-shadow: -1px -1px #404040, 1px 1px #cccccc, 0 -1px #404040, -1px 0 #404040, 0 1px #cccccc, 1px 0 #cccccc;
 }
 
-div p font img {
+.review-artwork {
   border: 1px solid black;
+}
+
+.tracklist-artwork {
+  border: 0;
 }
 
 /* Cursor PNGs keep their device-pixel sizes between density thresholds.
