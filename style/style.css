@@ -205,6 +205,40 @@ a[href="../pages/start.html"] {
   color: #999999;
 }
 
+/* Era-authentic underlines: draw straight through descenders, as every
+   browser did before skip-ink defaults arrived (Chrome 64 / Firefox 70).
+   Covers link subtrees, whose old <font> wrappers would otherwise keep the
+   'auto' default, and the link-styled RSS button. Paint-only. */
+a,
+a *,
+button {
+  text-decoration-skip-ink: none;
+}
+
+/* Site title: normal words with spaced lettering. Replaces the old manually
+   spaced letters and white xx separators; spacing values measured in Firefox
+   so total width and inter-word gaps match the old rendering. CSS has no
+   ::last-letter, so each word wraps its final letter in a nested span with
+   zero letter-spacing: with no trailing space anywhere, the box is exactly
+   the ink (nothing to recenter) and the real underline ends flush. Per-word
+   spans keep the underline gaps between words. */
+.site-title {
+  color: #999999;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 4.062px;
+  word-spacing: 10.05px;
+  text-decoration: none;
+}
+
+.site-title > span {
+  text-decoration: underline;
+}
+
+.site-title span span {
+  letter-spacing: 0;
+}
+
 div[align="center"] > p {
   width: fit-content;
   max-width: 100%;
