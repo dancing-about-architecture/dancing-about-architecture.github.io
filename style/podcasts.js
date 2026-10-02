@@ -32,14 +32,14 @@
   });
 }());
 
-/* Build the narrow layout from the original tables so both views share links. */
+/* Build the narrow layout from the desktop list so both views share links. */
 (function () {
-  document.querySelectorAll('table[width="699"], table[width="698"]').forEach(function (table) {
+  document.querySelectorAll('.podcast-list').forEach(function (desktop) {
 
-    var covers = table.querySelectorAll('a:has(img[src*="album%20covers"])');
-    var podcasts = table.querySelectorAll('a[href$=".mp3"]');
-    var artists = table.querySelectorAll('font[size="6"]');
-    var tracks = table.querySelectorAll('a[href*="podcast%20track%20lists"]');
+    var covers = desktop.querySelectorAll('a:has(img[src*="album%20covers"])');
+    var podcasts = desktop.querySelectorAll('a[href$=".mp3"]');
+    var artists = desktop.querySelectorAll('.podcast-artist');
+    var tracks = desktop.querySelectorAll('.podcast-tracklist a');
     if (!covers.length || [podcasts, artists, tracks].some(function (items) {
       return items.length !== covers.length;
     })) return;
@@ -74,7 +74,7 @@
       list.appendChild(entry);
       list.appendChild(document.createElement('hr'));
     });
-    table.classList.add('podcast-desktop-table');
-    table.insertAdjacentElement('afterend', list);
+    desktop.classList.add('podcast-desktop-table');
+    desktop.insertAdjacentElement('afterend', list);
   });
 }());

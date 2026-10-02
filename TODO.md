@@ -28,7 +28,7 @@ Getting Site Working Well / Technical
     - also covers cleanup of stray `?v=glance&s=music` query strings accidentally copy-pasted onto local paths (86 pages on an image path, 8 pages on a link)
 - [ ] Restructure Site??
     - the vast majority of pages (305–326 of 329) still rely on `<spacer>`, `<font>`, and `<table>`-based layout from the original Adobe GoLive export — `<spacer>` in particular hasn't rendered in any browser for ~20 years, so a lot of original spacing is already silently gone
-
+- [ ] FIX NAME ARTIST ORDER!
 
 Wish List
 =========
@@ -55,8 +55,3 @@ Wish List
 Archiving
 =========
 - [ ] Rewrite about/WTF page to explain that I've taken it over?
-
-
-Repo
-====
-- [ ] Fix README

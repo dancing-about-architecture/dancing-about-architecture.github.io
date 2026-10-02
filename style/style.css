@@ -205,6 +205,20 @@ button {
   letter-spacing: 0;
 }
 
+/* Lyric verse and prose quotations: explicit roles so a later prose-container
+   size cannot move them. Only font-size is pinned: art4's closing
+   quote mark sits outside its <i>, so pinning font-style would change
+   it. The <i> emphasis and break-only <font> scaffolding stay.
+   Intentional correction (batch 3b): lyrics render at the measured +1
+   prose size (18px) instead of the old default 16px; quotes stay 16px. */
+.lyrics {
+  font-size: 18px;
+}
+
+.review-quote {
+  font-size: 16px;
+}
+
 div[align="center"] > p {
   width: fit-content;
   max-width: 100%;
@@ -465,10 +479,62 @@ div#zlist {
 }
 /* END MOBILE =============================================================== */
 
-/* Podcast list: retain the GoLive desktop table and stack entries on mobile. */
-table:is([width="699"], [width="698"]) img[src*="album%20covers"],
+/* Podcast list: three-column entries. Covers stay left, iPods right, and
+   every artist name and track-list link shares one centered axis at the
+   same offsets the old spacer tables used (16px margins, 16px gutters). */
+.podcast-list {
+  max-width: 699px;
+  /* Top margin is 48px, not 32: the old table's lead rows added 32px below
+     the collapsed 16px paragraph margins, while a div margin merges with
+     them. The 70px gap plus the 202px bordered cover reproduces the old
+     272px entry rhythm. */
+  margin: 48px auto 76px;
+  display: grid;
+  row-gap: 70px;
+}
+
+.podcast-entry {
+  display: grid;
+  grid-template-columns: 208px 272px 170px;
+  column-gap: 16px;
+  padding-left: 16px;
+  align-items: start;
+}
+
+.podcast-cover,
+.podcast-listen {
+  display: block;
+}
+
+.podcast-cover img,
+.podcast-listen img {
+  display: block;
+}
+
+.podcast-list img[src*="album%20covers"],
 .podcast-mobile-entry img[src*="album%20covers"] {
   border: 1px solid black;
+}
+
+.podcast-text {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* font-size 32px is the CSS equivalent of the old <font size="6">. */
+.podcast-artist {
+  margin: 0;
+  padding-top: 32px;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  cursor: var(--daa-cursor-beam);
+}
+
+.podcast-tracklist {
+  margin: auto 0 12px;
+  text-align: center;
 }
 
 .podcast-mobile-list {
