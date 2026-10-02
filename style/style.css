@@ -219,6 +219,16 @@ button {
   font-size: 16px;
 }
 
+/* Review headings: explicit role replacing <font size="+2"> wrappers, one
+   span per fragment. The span (not the <p>) carries the size so the
+   paragraph keeps its 16px strut for the trailing-<br> line. Size verified
+   in Firefox (24px across all +2 samples); beam cursor preserves the old
+   font-element text cursor over heading text. */
+.review-title {
+  font-size: 24px;
+  cursor: var(--daa-cursor-beam);
+}
+
 div[align="center"] > p {
   width: fit-content;
   max-width: 100%;
